@@ -7,11 +7,13 @@ pipeline {
             steps { 
                 echo 'Cleaning..'
                 sh 'fastlane run clear_derived_data'
+                sh 'fastlane example'
             }
         }
         stage('Build') {
             steps {
                 echo 'Building..'
+                sh 'fastlane beta'
             }
         }
         stage('Test') {
