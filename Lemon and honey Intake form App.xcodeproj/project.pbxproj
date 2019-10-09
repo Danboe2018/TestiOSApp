@@ -1,0 +1,1339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D9A58811F610DD500693048 /* AppointmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A587C1F610DD500693048 /* AppointmentsViewController.m */; };
+		2D9A58821F610DD500693048 /* AppointmentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A587E1F610DD500693048 /* AppointmentsTableViewCell.m */; };
+		2D9A58831F610DD500693048 /* Appointments.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A58801F610DD500693048 /* Appointments.m */; };
+		2DA253CC1F4ABE880084A290 /* GMRatingViewFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA253CB1F4ABE880084A290 /* GMRatingViewFieldCell.m */; };
+		2DA253CF1F4AC53C0084A290 /* StarEmptyLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA253CD1F4AC53C0084A290 /* StarEmptyLarge@2x.png */; };
+		2DA253D01F4AC53C0084A290 /* StarFullLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA253CE1F4AC53C0084A290 /* StarFullLarge@2x.png */; };
+		2DA253D31F4ADE800084A290 /* StarEmptyLarge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA253D11F4ADE800084A290 /* StarEmptyLarge@3x.png */; };
+		2DA253D41F4ADE800084A290 /* StarFullLarge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA253D21F4ADE800084A290 /* StarFullLarge@3x.png */; };
+		7620AA71926C25763B1D59F1 /* Pods_Lemon_and_honey_Intake_form_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FEA57D30DB05BDCA3F43B5 /* Pods_Lemon_and_honey_Intake_form_App.framework */; };
+		8403AC6020664C4200F347C8 /* THPinInputCirclesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403AC5120664C4200F347C8 /* THPinInputCirclesView.m */; };
+		8403AC6120664C4200F347C8 /* THPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403AC5620664C4200F347C8 /* THPinViewController.m */; };
+		8403AC6220664C4200F347C8 /* THPinInputCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403AC5920664C4200F347C8 /* THPinInputCircleView.m */; };
+		8403AC6320664C4200F347C8 /* THPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403AC5A20664C4200F347C8 /* THPinView.m */; };
+		8403AC6420664C4200F347C8 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403AC5B20664C4200F347C8 /* UIImage+ImageEffects.m */; };
+		8403AC6520664C4200F347C8 /* THPinViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8403AC5C20664C4200F347C8 /* THPinViewController.bundle */; };
+		8403AC6620664C4200F347C8 /* THPinNumPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403AC5E20664C4200F347C8 /* THPinNumPadView.m */; };
+		8403AC6720664C4200F347C8 /* THPinNumButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403AC5F20664C4200F347C8 /* THPinNumButton.m */; };
+		840D7DB11FC438FA008C78A1 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 840D7DB01FC438FA008C78A1 /* back.png */; };
+		845233591E67799900EECC90 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845233581E67799900EECC90 /* SearchViewController.m */; };
+		846499D720C6527800A0BCF5 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846499D520C6527700A0BCF5 /* PopViewController.m */; };
+		846499DA20C6972B00A0BCF5 /* GMFormDisabledTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846499D820C6972B00A0BCF5 /* GMFormDisabledTextFieldCell.m */; };
+		846499E220C6AE2800A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846499DB20C6AE2700A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.xib */; };
+		846499E320C6AE2800A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846499DD20C6AE2800A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.m */; };
+		846499E420C6AE2800A0BCF5 /* GMRadioButtonFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846499DE20C6AE2800A0BCF5 /* GMRadioButtonFormFieldCell.m */; };
+		846499E520C6AE2800A0BCF5 /* GMRadioButtonFormFieldDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 846499E120C6AE2800A0BCF5 /* GMRadioButtonFormFieldDataModel.m */; };
+		846499ED20C6AE3B00A0BCF5 /* GMCheckBoxFormFieldDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 846499E620C6AE3A00A0BCF5 /* GMCheckBoxFormFieldDataModel.m */; };
+		846499EE20C6AE3B00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846499E920C6AE3A00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.m */; };
+		846499EF20C6AE3B00A0BCF5 /* GMCheckBoxFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846499EA20C6AE3A00A0BCF5 /* GMCheckBoxFormFieldCell.m */; };
+		846499F020C6AE3B00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846499EC20C6AE3B00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.xib */; };
+		846499F520C6AE8000A0BCF5 /* CheckBoxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 846499F220C6AE8000A0BCF5 /* CheckBoxButton.m */; };
+		846499F620C6AE8000A0BCF5 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 846499F420C6AE8000A0BCF5 /* RadioButton.m */; };
+		8466131A1E52D2590080B308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613191E52D2590080B308 /* main.m */; };
+		8466131D1E52D2590080B308 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466131C1E52D2590080B308 /* AppDelegate.m */; };
+		846613201E52D2590080B308 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466131F1E52D2590080B308 /* ViewController.m */; };
+		846613231E52D2590080B308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846613211E52D2590080B308 /* Main.storyboard */; };
+		846613251E52D2590080B308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846613241E52D2590080B308 /* Assets.xcassets */; };
+		846613281E52D2590080B308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846613261E52D2590080B308 /* LaunchScreen.storyboard */; };
+		846613331E52D2590080B308 /* Lemon_and_honey_Intake_form_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613321E52D2590080B308 /* Lemon_and_honey_Intake_form_AppTests.m */; };
+		8466133E1E52D2590080B308 /* Lemon_and_honey_Intake_form_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466133D1E52D2590080B308 /* Lemon_and_honey_Intake_form_AppUITests.m */; };
+		8466134C1E52D3090080B308 /* Final-Lemon-and-honey-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8466134B1E52D3090080B308 /* Final-Lemon-and-honey-Logo.jpg */; };
+		846613511E52DA500080B308 /* ACFloatingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613501E52DA500080B308 /* ACFloatingTextField.m */; };
+		846613681E52E69C0080B308 /* HelperFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466135D1E52E69C0080B308 /* HelperFunctions.m */; };
+		846613691E52E69C0080B308 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466135F1E52E69C0080B308 /* NSArray+Additions.m */; };
+		8466136A1E52E69C0080B308 /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613611E52E69C0080B308 /* NSDictionary+Additions.m */; };
+		8466136B1E52E69C0080B308 /* NSObject+JsonParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613631E52E69C0080B308 /* NSObject+JsonParsing.m */; };
+		8466136C1E52E69C0080B308 /* UIAlertController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613651E52E69C0080B308 /* UIAlertController+Helper.m */; };
+		8466136D1E52E69C0080B308 /* UIViewController+BasicFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613671E52E69C0080B308 /* UIViewController+BasicFunctions.m */; };
+		846613731E52ED070080B308 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8466136F1E52ED070080B308 /* LICENSE */; };
+		846613741E52ED070080B308 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613711E52ED070080B308 /* MBProgressHUD.m */; };
+		846613751E52ED070080B308 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = 846613721E52ED070080B308 /* README.mdown */; };
+		846613791E52F2800080B308 /* FormSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613781E52F2800080B308 /* FormSelectionViewController.m */; };
+		8466137D1E54267A0080B308 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466137C1E54267A0080B308 /* key.png */; };
+		8466137F1E5427A60080B308 /* key1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466137E1E5427A60080B308 /* key1.png */; };
+		846613991E545F380080B308 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613861E545F380080B308 /* AbstractActionSheetPicker.m */; };
+		8466139A1E545F380080B308 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613881E545F380080B308 /* ActionSheetCustomPicker.m */; };
+		8466139B1E545F380080B308 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466138B1E545F380080B308 /* ActionSheetDatePicker.m */; };
+		8466139C1E545F380080B308 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466138D1E545F380080B308 /* ActionSheetDistancePicker.m */; };
+		8466139D1E545F380080B308 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466138F1E545F380080B308 /* ActionSheetLocalePicker.m */; };
+		8466139E1E545F380080B308 /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613911E545F380080B308 /* ActionSheetMultipleStringPicker.m */; };
+		8466139F1E545F380080B308 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613941E545F380080B308 /* ActionSheetStringPicker.m */; };
+		846613A01E545F380080B308 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613961E545F380080B308 /* DistancePickerView.m */; };
+		846613A11E545F380080B308 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 846613981E545F380080B308 /* SWActionSheet.m */; };
+		847A28D11E63FCCB00185E9D /* WellnessMembershipAgreements.json in Resources */ = {isa = PBXBuildFile; fileRef = 847A28D01E63FCCB00185E9D /* WellnessMembershipAgreements.json */; };
+		849B00661E64397A0028DD02 /* GMFormLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B00651E64397A0028DD02 /* GMFormLabelCell.m */; };
+		931C3C011E5FEDF700EE75E4 /* GMFormTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C3C001E5FEDF700EE75E4 /* GMFormTextFieldCell.m */; };
+		931C3C091E5FFA8200EE75E4 /* AWSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C3C081E5FFA8200EE75E4 /* AWSManager.m */; };
+		931C3C0D1E5FFBE800EE75E4 /* FormFieldObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C3C0C1E5FFBE800EE75E4 /* FormFieldObject.m */; };
+		93F6379D1E5C0204006C97F3 /* camera-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F637981E5C0204006C97F3 /* camera-icon@2x.png */; };
+		93F6379E1E5C0204006C97F3 /* HYPImageFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F6379A1E5C0204006C97F3 /* HYPImageFormFieldCell.m */; };
+		93F6379F1E5C0204006C97F3 /* FormDisplayCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F6379C1E5C0204006C97F3 /* FormDisplayCollectionViewController.m */; };
+		93F637A31E5C0986006C97F3 /* forms.json in Resources */ = {isa = PBXBuildFile; fileRef = 93F637A21E5C0986006C97F3 /* forms.json */; };
+		93F637A51E5C0EB5006C97F3 /* ClientIntakeForm.json in Resources */ = {isa = PBXBuildFile; fileRef = 93F637A41E5C0EB5006C97F3 /* ClientIntakeForm.json */; };
+		93F637C11E5EE8BC006C97F3 /* radioButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F637BF1E5EE8BC006C97F3 /* radioButtonSelected@2x.png */; };
+		93F637C21E5EE8BC006C97F3 /* radioButtonUnSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F637C01E5EE8BC006C97F3 /* radioButtonUnSelected@2x.png */; };
+		93F637C91E5EF747006C97F3 /* check-box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F637C71E5EF747006C97F3 /* check-box@2x.png */; };
+		93F637CA1E5EF747006C97F3 /* uncheck-box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F637C81E5EF747006C97F3 /* uncheck-box@2x.png */; };
+		93F637D01E5EF8D1006C97F3 /* PPSSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F637CE1E5EF8D1006C97F3 /* PPSSignatureView.m */; };
+		93F637D31E5EF976006C97F3 /* GMSignatureViewFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F637D21E5EF976006C97F3 /* GMSignatureViewFieldCell.m */; };
+		93F637D61E5F1407006C97F3 /* GMFormJsonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F637D51E5F1407006C97F3 /* GMFormJsonManager.m */; };
+		93F637D91E5F3575006C97F3 /* GMForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F637D81E5F3575006C97F3 /* GMForm.m */; };
+		BB320014A013D055A5B00B67 /* Pods_Lemon_and_honey_Intake_form_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5556957A59D9F0076CE598D0 /* Pods_Lemon_and_honey_Intake_form_AppTests.framework */; };
+		D51A407397CDDE0675AD637D /* Pods_Lemon_and_honey_Intake_form_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2C6CFEAD4D8170C753A688 /* Pods_Lemon_and_honey_Intake_form_AppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8466132F1E52D2590080B308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8466130D1E52D2590080B308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846613141E52D2590080B308;
+			remoteInfo = "Lemon and honey Intake form App";
+		};
+		8466133A1E52D2590080B308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8466130D1E52D2590080B308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846613141E52D2590080B308;
+			remoteInfo = "Lemon and honey Intake form App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EF016248B8F4BB4EE085B65 /* Pods-CocoaPods-Lemon and honey Intake form App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPods-Lemon and honey Intake form App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPods-Lemon and honey Intake form App/Pods-CocoaPods-Lemon and honey Intake form App.debug.xcconfig"; sourceTree = "<group>"; };
+		23488286B0CE412EAC5857AB /* Pods-Lemon and honey Intake form AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemon and honey Intake form AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lemon and honey Intake form AppUITests/Pods-Lemon and honey Intake form AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		28FEA57D30DB05BDCA3F43B5 /* Pods_Lemon_and_honey_Intake_form_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lemon_and_honey_Intake_form_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6741701A40BBEAC940A998 /* Pods_CocoaPods_Lemon_and_honey_Intake_form_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaPods_Lemon_and_honey_Intake_form_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9A587B1F610DD500693048 /* AppointmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentsViewController.h; sourceTree = "<group>"; };
+		2D9A587C1F610DD500693048 /* AppointmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentsViewController.m; sourceTree = "<group>"; };
+		2D9A587D1F610DD500693048 /* AppointmentsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentsTableViewCell.h; sourceTree = "<group>"; };
+		2D9A587E1F610DD500693048 /* AppointmentsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentsTableViewCell.m; sourceTree = "<group>"; };
+		2D9A587F1F610DD500693048 /* Appointments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appointments.h; sourceTree = "<group>"; };
+		2D9A58801F610DD500693048 /* Appointments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appointments.m; sourceTree = "<group>"; };
+		2DA253CA1F4ABE880084A290 /* GMRatingViewFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMRatingViewFieldCell.h; sourceTree = "<group>"; };
+		2DA253CB1F4ABE880084A290 /* GMRatingViewFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMRatingViewFieldCell.m; sourceTree = "<group>"; };
+		2DA253CD1F4AC53C0084A290 /* StarEmptyLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StarEmptyLarge@2x.png"; path = "Pods/DYRateView/DYRateView/Resources/StarEmptyLarge@2x.png"; sourceTree = "<group>"; };
+		2DA253CE1F4AC53C0084A290 /* StarFullLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StarFullLarge@2x.png"; path = "Pods/DYRateView/DYRateView/Resources/StarFullLarge@2x.png"; sourceTree = "<group>"; };
+		2DA253D11F4ADE800084A290 /* StarEmptyLarge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StarEmptyLarge@3x.png"; sourceTree = "<group>"; };
+		2DA253D21F4ADE800084A290 /* StarFullLarge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StarFullLarge@3x.png"; sourceTree = "<group>"; };
+		441D62133BD4372CD6311961 /* Pods-Lemon and honey Intake form App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemon and honey Intake form App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lemon and honey Intake form App/Pods-Lemon and honey Intake form App.release.xcconfig"; sourceTree = "<group>"; };
+		4AA217473D0CFEAD717D8D66 /* Pods-CocoaPods-Lemon and honey Intake form App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPods-Lemon and honey Intake form App.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPods-Lemon and honey Intake form App/Pods-CocoaPods-Lemon and honey Intake form App.release.xcconfig"; sourceTree = "<group>"; };
+		5556957A59D9F0076CE598D0 /* Pods_Lemon_and_honey_Intake_form_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lemon_and_honey_Intake_form_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		593491B3211EC33773A4A2FE /* Pods-Lemon and honey Intake form AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemon and honey Intake form AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lemon and honey Intake form AppTests/Pods-Lemon and honey Intake form AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C2C6CFEAD4D8170C753A688 /* Pods_Lemon_and_honey_Intake_form_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lemon_and_honey_Intake_form_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8403AC5120664C4200F347C8 /* THPinInputCirclesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPinInputCirclesView.m; sourceTree = "<group>"; };
+		8403AC5220664C4200F347C8 /* THPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPinView.h; sourceTree = "<group>"; };
+		8403AC5320664C4200F347C8 /* THPinInputCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPinInputCircleView.h; sourceTree = "<group>"; };
+		8403AC5420664C4200F347C8 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		8403AC5520664C4200F347C8 /* THPinNumButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPinNumButton.h; sourceTree = "<group>"; };
+		8403AC5620664C4200F347C8 /* THPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPinViewController.m; sourceTree = "<group>"; };
+		8403AC5720664C4200F347C8 /* THPinNumPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPinNumPadView.h; sourceTree = "<group>"; };
+		8403AC5820664C4200F347C8 /* THPinInputCirclesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPinInputCirclesView.h; sourceTree = "<group>"; };
+		8403AC5920664C4200F347C8 /* THPinInputCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPinInputCircleView.m; sourceTree = "<group>"; };
+		8403AC5A20664C4200F347C8 /* THPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPinView.m; sourceTree = "<group>"; };
+		8403AC5B20664C4200F347C8 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		8403AC5C20664C4200F347C8 /* THPinViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = THPinViewController.bundle; sourceTree = "<group>"; };
+		8403AC5D20664C4200F347C8 /* THPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPinViewController.h; sourceTree = "<group>"; };
+		8403AC5E20664C4200F347C8 /* THPinNumPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPinNumPadView.m; sourceTree = "<group>"; };
+		8403AC5F20664C4200F347C8 /* THPinNumButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPinNumButton.m; sourceTree = "<group>"; };
+		840D7DB01FC438FA008C78A1 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		845233571E67799900EECC90 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		845233581E67799900EECC90 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		846499D520C6527700A0BCF5 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		846499D620C6527700A0BCF5 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		846499D820C6972B00A0BCF5 /* GMFormDisabledTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMFormDisabledTextFieldCell.m; sourceTree = "<group>"; };
+		846499D920C6972B00A0BCF5 /* GMFormDisabledTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMFormDisabledTextFieldCell.h; sourceTree = "<group>"; };
+		846499DB20C6AE2700A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMRadioButtonFormFieldCollectionViewCell.xib; sourceTree = "<group>"; };
+		846499DC20C6AE2800A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMRadioButtonFormFieldCollectionViewCell.h; sourceTree = "<group>"; };
+		846499DD20C6AE2800A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMRadioButtonFormFieldCollectionViewCell.m; sourceTree = "<group>"; };
+		846499DE20C6AE2800A0BCF5 /* GMRadioButtonFormFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMRadioButtonFormFieldCell.m; sourceTree = "<group>"; };
+		846499DF20C6AE2800A0BCF5 /* GMRadioButtonFormFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMRadioButtonFormFieldCell.h; sourceTree = "<group>"; };
+		846499E020C6AE2800A0BCF5 /* GMRadioButtonFormFieldDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMRadioButtonFormFieldDataModel.h; sourceTree = "<group>"; };
+		846499E120C6AE2800A0BCF5 /* GMRadioButtonFormFieldDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMRadioButtonFormFieldDataModel.m; sourceTree = "<group>"; };
+		846499E620C6AE3A00A0BCF5 /* GMCheckBoxFormFieldDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMCheckBoxFormFieldDataModel.m; sourceTree = "<group>"; };
+		846499E720C6AE3A00A0BCF5 /* GMCheckBoxFormFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMCheckBoxFormFieldCell.h; sourceTree = "<group>"; };
+		846499E820C6AE3A00A0BCF5 /* GMCheckBoxFormFieldDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMCheckBoxFormFieldDataModel.h; sourceTree = "<group>"; };
+		846499E920C6AE3A00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMCheckBoxFormFieldCollectionViewCell.m; sourceTree = "<group>"; };
+		846499EA20C6AE3A00A0BCF5 /* GMCheckBoxFormFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMCheckBoxFormFieldCell.m; sourceTree = "<group>"; };
+		846499EB20C6AE3B00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMCheckBoxFormFieldCollectionViewCell.h; sourceTree = "<group>"; };
+		846499EC20C6AE3B00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMCheckBoxFormFieldCollectionViewCell.xib; sourceTree = "<group>"; };
+		846499F120C6AE8000A0BCF5 /* CheckBoxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBoxButton.h; sourceTree = "<group>"; };
+		846499F220C6AE8000A0BCF5 /* CheckBoxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBoxButton.m; sourceTree = "<group>"; };
+		846499F320C6AE8000A0BCF5 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		846499F420C6AE8000A0BCF5 /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		846613151E52D2590080B308 /* Lemon and honey Intake form App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemon and honey Intake form App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846613191E52D2590080B308 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8466131B1E52D2590080B308 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8466131C1E52D2590080B308 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8466131E1E52D2590080B308 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8466131F1E52D2590080B308 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		846613221E52D2590080B308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846613241E52D2590080B308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846613271E52D2590080B308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846613291E52D2590080B308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8466132E1E52D2590080B308 /* Lemon and honey Intake form AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemon and honey Intake form AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846613321E52D2590080B308 /* Lemon_and_honey_Intake_form_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lemon_and_honey_Intake_form_AppTests.m; sourceTree = "<group>"; };
+		846613341E52D2590080B308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846613391E52D2590080B308 /* Lemon and honey Intake form AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemon and honey Intake form AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8466133D1E52D2590080B308 /* Lemon_and_honey_Intake_form_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lemon_and_honey_Intake_form_AppUITests.m; sourceTree = "<group>"; };
+		8466133F1E52D2590080B308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8466134B1E52D3090080B308 /* Final-Lemon-and-honey-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Final-Lemon-and-honey-Logo.jpg"; sourceTree = "<group>"; };
+		8466134F1E52DA500080B308 /* ACFloatingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFloatingTextField.h; sourceTree = "<group>"; };
+		846613501E52DA500080B308 /* ACFloatingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFloatingTextField.m; sourceTree = "<group>"; };
+		8466135C1E52E69C0080B308 /* HelperFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperFunctions.h; sourceTree = "<group>"; };
+		8466135D1E52E69C0080B308 /* HelperFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperFunctions.m; sourceTree = "<group>"; };
+		8466135E1E52E69C0080B308 /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = "<group>"; };
+		8466135F1E52E69C0080B308 /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additions.m"; sourceTree = "<group>"; };
+		846613601E52E69C0080B308 /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Additions.h"; sourceTree = "<group>"; };
+		846613611E52E69C0080B308 /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Additions.m"; sourceTree = "<group>"; };
+		846613621E52E69C0080B308 /* NSObject+JsonParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JsonParsing.h"; sourceTree = "<group>"; };
+		846613631E52E69C0080B308 /* NSObject+JsonParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JsonParsing.m"; sourceTree = "<group>"; };
+		846613641E52E69C0080B308 /* UIAlertController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Helper.h"; sourceTree = "<group>"; };
+		846613651E52E69C0080B308 /* UIAlertController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Helper.m"; sourceTree = "<group>"; };
+		846613661E52E69C0080B308 /* UIViewController+BasicFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BasicFunctions.h"; sourceTree = "<group>"; };
+		846613671E52E69C0080B308 /* UIViewController+BasicFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BasicFunctions.m"; sourceTree = "<group>"; };
+		8466136F1E52ED070080B308 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		846613701E52ED070080B308 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		846613711E52ED070080B308 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		846613721E52ED070080B308 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		846613761E52ED390080B308 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		846613771E52F2800080B308 /* FormSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormSelectionViewController.h; sourceTree = "<group>"; };
+		846613781E52F2800080B308 /* FormSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FormSelectionViewController.m; path = "Lemon and honey Intake form App/FormSelectionViewController.m"; sourceTree = SOURCE_ROOT; };
+		8466137C1E54267A0080B308 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		8466137E1E5427A60080B308 /* key1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key1.png; sourceTree = "<group>"; };
+		846613851E545F380080B308 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		846613861E545F380080B308 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		846613871E545F380080B308 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		846613881E545F380080B308 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		846613891E545F380080B308 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		8466138A1E545F380080B308 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		8466138B1E545F380080B308 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		8466138C1E545F380080B308 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		8466138D1E545F380080B308 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		8466138E1E545F380080B308 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		8466138F1E545F380080B308 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		846613901E545F380080B308 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		846613911E545F380080B308 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		846613921E545F380080B308 /* ActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
+		846613931E545F380080B308 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		846613941E545F380080B308 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		846613951E545F380080B308 /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		846613961E545F380080B308 /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		846613971E545F380080B308 /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		846613981E545F380080B308 /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+		847A28D01E63FCCB00185E9D /* WellnessMembershipAgreements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WellnessMembershipAgreements.json; sourceTree = "<group>"; };
+		849B00641E64397A0028DD02 /* GMFormLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMFormLabelCell.h; sourceTree = "<group>"; };
+		849B00651E64397A0028DD02 /* GMFormLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMFormLabelCell.m; sourceTree = "<group>"; };
+		931C3BFF1E5FEDF700EE75E4 /* GMFormTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMFormTextFieldCell.h; sourceTree = "<group>"; };
+		931C3C001E5FEDF700EE75E4 /* GMFormTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMFormTextFieldCell.m; sourceTree = "<group>"; };
+		931C3C071E5FFA8200EE75E4 /* AWSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSManager.h; sourceTree = "<group>"; };
+		931C3C081E5FFA8200EE75E4 /* AWSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSManager.m; sourceTree = "<group>"; };
+		931C3C0B1E5FFBE800EE75E4 /* FormFieldObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormFieldObject.h; sourceTree = "<group>"; };
+		931C3C0C1E5FFBE800EE75E4 /* FormFieldObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormFieldObject.m; sourceTree = "<group>"; };
+		93F637981E5C0204006C97F3 /* camera-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon@2x.png"; sourceTree = "<group>"; };
+		93F637991E5C0204006C97F3 /* HYPImageFormFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPImageFormFieldCell.h; sourceTree = "<group>"; };
+		93F6379A1E5C0204006C97F3 /* HYPImageFormFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPImageFormFieldCell.m; sourceTree = "<group>"; };
+		93F6379B1E5C0204006C97F3 /* FormDisplayCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FormDisplayCollectionViewController.h; path = Form/FormDisplayCollectionViewController.h; sourceTree = "<group>"; };
+		93F6379C1E5C0204006C97F3 /* FormDisplayCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FormDisplayCollectionViewController.m; path = Form/FormDisplayCollectionViewController.m; sourceTree = "<group>"; };
+		93F637A11E5C065C006C97F3 /* FormHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormHeader.h; sourceTree = "<group>"; };
+		93F637A21E5C0986006C97F3 /* forms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forms.json; sourceTree = "<group>"; };
+		93F637A41E5C0EB5006C97F3 /* ClientIntakeForm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ClientIntakeForm.json; sourceTree = "<group>"; };
+		93F637BF1E5EE8BC006C97F3 /* radioButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radioButtonSelected@2x.png"; sourceTree = "<group>"; };
+		93F637C01E5EE8BC006C97F3 /* radioButtonUnSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radioButtonUnSelected@2x.png"; sourceTree = "<group>"; };
+		93F637C71E5EF747006C97F3 /* check-box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-box@2x.png"; sourceTree = "<group>"; };
+		93F637C81E5EF747006C97F3 /* uncheck-box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uncheck-box@2x.png"; sourceTree = "<group>"; };
+		93F637CD1E5EF8D1006C97F3 /* PPSSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSSignatureView.h; sourceTree = "<group>"; };
+		93F637CE1E5EF8D1006C97F3 /* PPSSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSSignatureView.m; sourceTree = "<group>"; };
+		93F637D11E5EF976006C97F3 /* GMSignatureViewFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSignatureViewFieldCell.h; sourceTree = "<group>"; };
+		93F637D21E5EF976006C97F3 /* GMSignatureViewFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSignatureViewFieldCell.m; sourceTree = "<group>"; };
+		93F637D41E5F1407006C97F3 /* GMFormJsonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMFormJsonManager.h; sourceTree = "<group>"; };
+		93F637D51E5F1407006C97F3 /* GMFormJsonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMFormJsonManager.m; sourceTree = "<group>"; };
+		93F637D71E5F3575006C97F3 /* GMForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMForm.h; sourceTree = "<group>"; };
+		93F637D81E5F3575006C97F3 /* GMForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMForm.m; sourceTree = "<group>"; };
+		AA34DAAD3F47A43B08807888 /* Pods-Lemon and honey Intake form AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemon and honey Intake form AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lemon and honey Intake form AppTests/Pods-Lemon and honey Intake form AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2CADC075EF3887490877B14 /* Pods-Lemon and honey Intake form App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemon and honey Intake form App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lemon and honey Intake form App/Pods-Lemon and honey Intake form App.debug.xcconfig"; sourceTree = "<group>"; };
+		CD57C8BF472196927BB83C91 /* Pods-Lemon and honey Intake form AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemon and honey Intake form AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lemon and honey Intake form AppUITests/Pods-Lemon and honey Intake form AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846613121E52D2590080B308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7620AA71926C25763B1D59F1 /* Pods_Lemon_and_honey_Intake_form_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8466132B1E52D2590080B308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB320014A013D055A5B00B67 /* Pods_Lemon_and_honey_Intake_form_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846613361E52D2590080B308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51A407397CDDE0675AD637D /* Pods_Lemon_and_honey_Intake_form_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FE63B61D7126E38C7BB0970 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2CADC075EF3887490877B14 /* Pods-Lemon and honey Intake form App.debug.xcconfig */,
+				441D62133BD4372CD6311961 /* Pods-Lemon and honey Intake form App.release.xcconfig */,
+				593491B3211EC33773A4A2FE /* Pods-Lemon and honey Intake form AppTests.debug.xcconfig */,
+				AA34DAAD3F47A43B08807888 /* Pods-Lemon and honey Intake form AppTests.release.xcconfig */,
+				23488286B0CE412EAC5857AB /* Pods-Lemon and honey Intake form AppUITests.debug.xcconfig */,
+				CD57C8BF472196927BB83C91 /* Pods-Lemon and honey Intake form AppUITests.release.xcconfig */,
+				1EF016248B8F4BB4EE085B65 /* Pods-CocoaPods-Lemon and honey Intake form App.debug.xcconfig */,
+				4AA217473D0CFEAD717D8D66 /* Pods-CocoaPods-Lemon and honey Intake form App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6645908EB5B177E031FF4E93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D6741701A40BBEAC940A998 /* Pods_CocoaPods_Lemon_and_honey_Intake_form_App.framework */,
+				28FEA57D30DB05BDCA3F43B5 /* Pods_Lemon_and_honey_Intake_form_App.framework */,
+				5556957A59D9F0076CE598D0 /* Pods_Lemon_and_honey_Intake_form_AppTests.framework */,
+				7C2C6CFEAD4D8170C753A688 /* Pods_Lemon_and_honey_Intake_form_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8403AC5020664C4200F347C8 /* THPinViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8403AC5120664C4200F347C8 /* THPinInputCirclesView.m */,
+				8403AC5220664C4200F347C8 /* THPinView.h */,
+				8403AC5320664C4200F347C8 /* THPinInputCircleView.h */,
+				8403AC5420664C4200F347C8 /* UIImage+ImageEffects.h */,
+				8403AC5520664C4200F347C8 /* THPinNumButton.h */,
+				8403AC5620664C4200F347C8 /* THPinViewController.m */,
+				8403AC5720664C4200F347C8 /* THPinNumPadView.h */,
+				8403AC5820664C4200F347C8 /* THPinInputCirclesView.h */,
+				8403AC5920664C4200F347C8 /* THPinInputCircleView.m */,
+				8403AC5A20664C4200F347C8 /* THPinView.m */,
+				8403AC5B20664C4200F347C8 /* UIImage+ImageEffects.m */,
+				8403AC5C20664C4200F347C8 /* THPinViewController.bundle */,
+				8403AC5D20664C4200F347C8 /* THPinViewController.h */,
+				8403AC5E20664C4200F347C8 /* THPinNumPadView.m */,
+				8403AC5F20664C4200F347C8 /* THPinNumButton.m */,
+			);
+			path = THPinViewController;
+			sourceTree = "<group>";
+		};
+		8466130C1E52D2590080B308 = {
+			isa = PBXGroup;
+			children = (
+				8403AC5020664C4200F347C8 /* THPinViewController */,
+				840D7DB01FC438FA008C78A1 /* back.png */,
+				2DA253CD1F4AC53C0084A290 /* StarEmptyLarge@2x.png */,
+				2DA253CE1F4AC53C0084A290 /* StarFullLarge@2x.png */,
+				2DA253D11F4ADE800084A290 /* StarEmptyLarge@3x.png */,
+				2DA253D21F4ADE800084A290 /* StarFullLarge@3x.png */,
+				8466135B1E52E69C0080B308 /* Helper Classes */,
+				8466134D1E52DA500080B308 /* Third party */,
+				93F637A01E5C039C006C97F3 /* resources */,
+				846613171E52D2590080B308 /* Lemon and honey Intake form App */,
+				846613311E52D2590080B308 /* Lemon and honey Intake form AppTests */,
+				8466133C1E52D2590080B308 /* Lemon and honey Intake form AppUITests */,
+				846613161E52D2590080B308 /* Products */,
+				0FE63B61D7126E38C7BB0970 /* Pods */,
+				6645908EB5B177E031FF4E93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		846613161E52D2590080B308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846613151E52D2590080B308 /* Lemon and honey Intake form App.app */,
+				8466132E1E52D2590080B308 /* Lemon and honey Intake form AppTests.xctest */,
+				846613391E52D2590080B308 /* Lemon and honey Intake form AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846613171E52D2590080B308 /* Lemon and honey Intake form App */ = {
+			isa = PBXGroup;
+			children = (
+				8466131B1E52D2590080B308 /* AppDelegate.h */,
+				8466131C1E52D2590080B308 /* AppDelegate.m */,
+				8466131E1E52D2590080B308 /* ViewController.h */,
+				8466131F1E52D2590080B308 /* ViewController.m */,
+				846613771E52F2800080B308 /* FormSelectionViewController.h */,
+				846613781E52F2800080B308 /* FormSelectionViewController.m */,
+				845233571E67799900EECC90 /* SearchViewController.h */,
+				845233581E67799900EECC90 /* SearchViewController.m */,
+				2D9A587B1F610DD500693048 /* AppointmentsViewController.h */,
+				2D9A587C1F610DD500693048 /* AppointmentsViewController.m */,
+				2D9A587D1F610DD500693048 /* AppointmentsTableViewCell.h */,
+				2D9A587E1F610DD500693048 /* AppointmentsTableViewCell.m */,
+				2D9A587F1F610DD500693048 /* Appointments.h */,
+				2D9A58801F610DD500693048 /* Appointments.m */,
+				93F6379B1E5C0204006C97F3 /* FormDisplayCollectionViewController.h */,
+				93F6379C1E5C0204006C97F3 /* FormDisplayCollectionViewController.m */,
+				2DA253CA1F4ABE880084A290 /* GMRatingViewFieldCell.h */,
+				2DA253CB1F4ABE880084A290 /* GMRatingViewFieldCell.m */,
+				931C3C0A1E5FFBE800EE75E4 /* Json Objects */,
+				931C3C061E5FFA8200EE75E4 /* AWS Manager */,
+				931C3C021E5FF20200EE75E4 /* Custom Buttons */,
+				931C3C031E5FF47000EE75E4 /* FORM JSON Generator */,
+				93F637971E5C0204006C97F3 /* Form */,
+				846613211E52D2590080B308 /* Main.storyboard */,
+				846613241E52D2590080B308 /* Assets.xcassets */,
+				846613261E52D2590080B308 /* LaunchScreen.storyboard */,
+				846613291E52D2590080B308 /* Info.plist */,
+				846613181E52D2590080B308 /* Supporting Files */,
+			);
+			path = "Lemon and honey Intake form App";
+			sourceTree = "<group>";
+		};
+		846613181E52D2590080B308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846613191E52D2590080B308 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		846613311E52D2590080B308 /* Lemon and honey Intake form AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				846613321E52D2590080B308 /* Lemon_and_honey_Intake_form_AppTests.m */,
+				846613341E52D2590080B308 /* Info.plist */,
+			);
+			path = "Lemon and honey Intake form AppTests";
+			sourceTree = "<group>";
+		};
+		8466133C1E52D2590080B308 /* Lemon and honey Intake form AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8466133D1E52D2590080B308 /* Lemon_and_honey_Intake_form_AppUITests.m */,
+				8466133F1E52D2590080B308 /* Info.plist */,
+			);
+			path = "Lemon and honey Intake form AppUITests";
+			sourceTree = "<group>";
+		};
+		8466134D1E52DA500080B308 /* Third party */ = {
+			isa = PBXGroup;
+			children = (
+				846613841E545F380080B308 /* Pickers */,
+				8466136E1E52ED070080B308 /* MBProgressHUD */,
+				8466134E1E52DA500080B308 /* ACFloatingTextField */,
+			);
+			name = "Third party";
+			path = "Lemon and honey Intake form App/Third party";
+			sourceTree = "<group>";
+		};
+		8466134E1E52DA500080B308 /* ACFloatingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8466134F1E52DA500080B308 /* ACFloatingTextField.h */,
+				846613501E52DA500080B308 /* ACFloatingTextField.m */,
+			);
+			path = ACFloatingTextField;
+			sourceTree = "<group>";
+		};
+		8466135B1E52E69C0080B308 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				846613761E52ED390080B308 /* Constants.h */,
+				8466135C1E52E69C0080B308 /* HelperFunctions.h */,
+				8466135D1E52E69C0080B308 /* HelperFunctions.m */,
+				8466135E1E52E69C0080B308 /* NSArray+Additions.h */,
+				8466135F1E52E69C0080B308 /* NSArray+Additions.m */,
+				846613601E52E69C0080B308 /* NSDictionary+Additions.h */,
+				846613611E52E69C0080B308 /* NSDictionary+Additions.m */,
+				846613621E52E69C0080B308 /* NSObject+JsonParsing.h */,
+				846613631E52E69C0080B308 /* NSObject+JsonParsing.m */,
+				846613641E52E69C0080B308 /* UIAlertController+Helper.h */,
+				846613651E52E69C0080B308 /* UIAlertController+Helper.m */,
+				846613661E52E69C0080B308 /* UIViewController+BasicFunctions.h */,
+				846613671E52E69C0080B308 /* UIViewController+BasicFunctions.m */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		8466136E1E52ED070080B308 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8466136F1E52ED070080B308 /* LICENSE */,
+				846613701E52ED070080B308 /* MBProgressHUD.h */,
+				846613711E52ED070080B308 /* MBProgressHUD.m */,
+				846613721E52ED070080B308 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		846613841E545F380080B308 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				846613851E545F380080B308 /* AbstractActionSheetPicker.h */,
+				846613861E545F380080B308 /* AbstractActionSheetPicker.m */,
+				846613871E545F380080B308 /* ActionSheetCustomPicker.h */,
+				846613881E545F380080B308 /* ActionSheetCustomPicker.m */,
+				846613891E545F380080B308 /* ActionSheetCustomPickerDelegate.h */,
+				8466138A1E545F380080B308 /* ActionSheetDatePicker.h */,
+				8466138B1E545F380080B308 /* ActionSheetDatePicker.m */,
+				8466138C1E545F380080B308 /* ActionSheetDistancePicker.h */,
+				8466138D1E545F380080B308 /* ActionSheetDistancePicker.m */,
+				8466138E1E545F380080B308 /* ActionSheetLocalePicker.h */,
+				8466138F1E545F380080B308 /* ActionSheetLocalePicker.m */,
+				846613901E545F380080B308 /* ActionSheetMultipleStringPicker.h */,
+				846613911E545F380080B308 /* ActionSheetMultipleStringPicker.m */,
+				846613921E545F380080B308 /* ActionSheetPicker.h */,
+				846613931E545F380080B308 /* ActionSheetStringPicker.h */,
+				846613941E545F380080B308 /* ActionSheetStringPicker.m */,
+				846613951E545F380080B308 /* DistancePickerView.h */,
+				846613961E545F380080B308 /* DistancePickerView.m */,
+				846613971E545F380080B308 /* SWActionSheet.h */,
+				846613981E545F380080B308 /* SWActionSheet.m */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		931C3BFE1E5FEDBF00EE75E4 /* Signature Cell */ = {
+			isa = PBXGroup;
+			children = (
+				93F637D11E5EF976006C97F3 /* GMSignatureViewFieldCell.h */,
+				93F637D21E5EF976006C97F3 /* GMSignatureViewFieldCell.m */,
+				93F637CD1E5EF8D1006C97F3 /* PPSSignatureView.h */,
+				93F637CE1E5EF8D1006C97F3 /* PPSSignatureView.m */,
+			);
+			name = "Signature Cell";
+			sourceTree = "<group>";
+		};
+		931C3C021E5FF20200EE75E4 /* Custom Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				846499F120C6AE8000A0BCF5 /* CheckBoxButton.h */,
+				846499F220C6AE8000A0BCF5 /* CheckBoxButton.m */,
+				846499F320C6AE8000A0BCF5 /* RadioButton.h */,
+				846499F420C6AE8000A0BCF5 /* RadioButton.m */,
+			);
+			name = "Custom Buttons";
+			sourceTree = "<group>";
+		};
+		931C3C031E5FF47000EE75E4 /* FORM JSON Generator */ = {
+			isa = PBXGroup;
+			children = (
+				93F637D41E5F1407006C97F3 /* GMFormJsonManager.h */,
+				93F637D51E5F1407006C97F3 /* GMFormJsonManager.m */,
+				93F637D71E5F3575006C97F3 /* GMForm.h */,
+				93F637D81E5F3575006C97F3 /* GMForm.m */,
+				846499D620C6527700A0BCF5 /* PopViewController.h */,
+				846499D520C6527700A0BCF5 /* PopViewController.m */,
+			);
+			name = "FORM JSON Generator";
+			sourceTree = "<group>";
+		};
+		931C3C041E5FF68200EE75E4 /* textfield cell */ = {
+			isa = PBXGroup;
+			children = (
+				931C3BFF1E5FEDF700EE75E4 /* GMFormTextFieldCell.h */,
+				931C3C001E5FEDF700EE75E4 /* GMFormTextFieldCell.m */,
+				846499D920C6972B00A0BCF5 /* GMFormDisabledTextFieldCell.h */,
+				846499D820C6972B00A0BCF5 /* GMFormDisabledTextFieldCell.m */,
+			);
+			name = "textfield cell";
+			sourceTree = "<group>";
+		};
+		931C3C051E5FF69800EE75E4 /* Image Cell */ = {
+			isa = PBXGroup;
+			children = (
+				93F637981E5C0204006C97F3 /* camera-icon@2x.png */,
+				93F637991E5C0204006C97F3 /* HYPImageFormFieldCell.h */,
+				93F6379A1E5C0204006C97F3 /* HYPImageFormFieldCell.m */,
+			);
+			name = "Image Cell";
+			sourceTree = "<group>";
+		};
+		931C3C061E5FFA8200EE75E4 /* AWS Manager */ = {
+			isa = PBXGroup;
+			children = (
+				931C3C071E5FFA8200EE75E4 /* AWSManager.h */,
+				931C3C081E5FFA8200EE75E4 /* AWSManager.m */,
+			);
+			name = "AWS Manager";
+			path = "Form/AWS Manager";
+			sourceTree = "<group>";
+		};
+		931C3C0A1E5FFBE800EE75E4 /* Json Objects */ = {
+			isa = PBXGroup;
+			children = (
+				931C3C0B1E5FFBE800EE75E4 /* FormFieldObject.h */,
+				931C3C0C1E5FFBE800EE75E4 /* FormFieldObject.m */,
+			);
+			name = "Json Objects";
+			path = "Form/Json Objects";
+			sourceTree = "<group>";
+		};
+		93F637971E5C0204006C97F3 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				93F637A11E5C065C006C97F3 /* FormHeader.h */,
+				849B00641E64397A0028DD02 /* GMFormLabelCell.h */,
+				849B00651E64397A0028DD02 /* GMFormLabelCell.m */,
+				931C3C051E5FF69800EE75E4 /* Image Cell */,
+				931C3C041E5FF68200EE75E4 /* textfield cell */,
+				931C3BFE1E5FEDBF00EE75E4 /* Signature Cell */,
+				93F637BE1E5EE4AC006C97F3 /* Radio Button */,
+				93F637B11E5ECA9E006C97F3 /* Check Box Button */,
+				93F637A21E5C0986006C97F3 /* forms.json */,
+				93F637A41E5C0EB5006C97F3 /* ClientIntakeForm.json */,
+				847A28D01E63FCCB00185E9D /* WellnessMembershipAgreements.json */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		93F637A01E5C039C006C97F3 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8466134B1E52D3090080B308 /* Final-Lemon-and-honey-Logo.jpg */,
+				8466137C1E54267A0080B308 /* key.png */,
+				8466137E1E5427A60080B308 /* key1.png */,
+				93F637BF1E5EE8BC006C97F3 /* radioButtonSelected@2x.png */,
+				93F637C01E5EE8BC006C97F3 /* radioButtonUnSelected@2x.png */,
+				93F637C71E5EF747006C97F3 /* check-box@2x.png */,
+				93F637C81E5EF747006C97F3 /* uncheck-box@2x.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		93F637B11E5ECA9E006C97F3 /* Check Box Button */ = {
+			isa = PBXGroup;
+			children = (
+				846499E720C6AE3A00A0BCF5 /* GMCheckBoxFormFieldCell.h */,
+				846499EA20C6AE3A00A0BCF5 /* GMCheckBoxFormFieldCell.m */,
+				846499EB20C6AE3B00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.h */,
+				846499E920C6AE3A00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.m */,
+				846499E820C6AE3A00A0BCF5 /* GMCheckBoxFormFieldDataModel.h */,
+				846499E620C6AE3A00A0BCF5 /* GMCheckBoxFormFieldDataModel.m */,
+				846499EC20C6AE3B00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.xib */,
+			);
+			name = "Check Box Button";
+			sourceTree = "<group>";
+		};
+		93F637BE1E5EE4AC006C97F3 /* Radio Button */ = {
+			isa = PBXGroup;
+			children = (
+				846499DF20C6AE2800A0BCF5 /* GMRadioButtonFormFieldCell.h */,
+				846499DE20C6AE2800A0BCF5 /* GMRadioButtonFormFieldCell.m */,
+				846499DC20C6AE2800A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.h */,
+				846499DD20C6AE2800A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.m */,
+				846499DB20C6AE2700A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.xib */,
+				846499E020C6AE2800A0BCF5 /* GMRadioButtonFormFieldDataModel.h */,
+				846499E120C6AE2800A0BCF5 /* GMRadioButtonFormFieldDataModel.m */,
+			);
+			name = "Radio Button";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846613141E52D2590080B308 /* Lemon and honey Intake form App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846613421E52D2590080B308 /* Build configuration list for PBXNativeTarget "Lemon and honey Intake form App" */;
+			buildPhases = (
+				70775B31EEEA2B63B9EEE611 /* [CP] Check Pods Manifest.lock */,
+				846613111E52D2590080B308 /* Sources */,
+				846613121E52D2590080B308 /* Frameworks */,
+				846613131E52D2590080B308 /* Resources */,
+				AB1E5F3F0F6687C44416D389 /* [CP] Embed Pods Frameworks */,
+				B0DD3FCE0FEE0A162AB65822 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lemon and honey Intake form App";
+			productName = "Lemon and honey Intake form App";
+			productReference = 846613151E52D2590080B308 /* Lemon and honey Intake form App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8466132D1E52D2590080B308 /* Lemon and honey Intake form AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846613451E52D2590080B308 /* Build configuration list for PBXNativeTarget "Lemon and honey Intake form AppTests" */;
+			buildPhases = (
+				CCEF56B383F3ADC4DCB745C5 /* [CP] Check Pods Manifest.lock */,
+				8466132A1E52D2590080B308 /* Sources */,
+				8466132B1E52D2590080B308 /* Frameworks */,
+				8466132C1E52D2590080B308 /* Resources */,
+				47A9772226D6246A6DFD7D25 /* [CP] Embed Pods Frameworks */,
+				74D09022B24C96A3D6C7D08B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846613301E52D2590080B308 /* PBXTargetDependency */,
+			);
+			name = "Lemon and honey Intake form AppTests";
+			productName = "Lemon and honey Intake form AppTests";
+			productReference = 8466132E1E52D2590080B308 /* Lemon and honey Intake form AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846613381E52D2590080B308 /* Lemon and honey Intake form AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846613481E52D2590080B308 /* Build configuration list for PBXNativeTarget "Lemon and honey Intake form AppUITests" */;
+			buildPhases = (
+				DB713EB75BD7E752AF1D588C /* [CP] Check Pods Manifest.lock */,
+				846613351E52D2590080B308 /* Sources */,
+				846613361E52D2590080B308 /* Frameworks */,
+				846613371E52D2590080B308 /* Resources */,
+				AB472F1A2188BC48F46C8152 /* [CP] Embed Pods Frameworks */,
+				268C238823AFC147528772BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8466133B1E52D2590080B308 /* PBXTargetDependency */,
+			);
+			name = "Lemon and honey Intake form AppUITests";
+			productName = "Lemon and honey Intake form AppUITests";
+			productReference = 846613391E52D2590080B308 /* Lemon and honey Intake form AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8466130D1E52D2590080B308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Gurie;
+				TargetAttributes = {
+					846613141E52D2590080B308 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N3V9KBCCA7;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					8466132D1E52D2590080B308 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BZ2ZN628V5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846613141E52D2590080B308;
+					};
+					846613381E52D2590080B308 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BZ2ZN628V5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846613141E52D2590080B308;
+					};
+				};
+			};
+			buildConfigurationList = 846613101E52D2590080B308 /* Build configuration list for PBXProject "Lemon and honey Intake form App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8466130C1E52D2590080B308;
+			productRefGroup = 846613161E52D2590080B308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846613141E52D2590080B308 /* Lemon and honey Intake form App */,
+				8466132D1E52D2590080B308 /* Lemon and honey Intake form AppTests */,
+				846613381E52D2590080B308 /* Lemon and honey Intake form AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846613131E52D2590080B308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA253D01F4AC53C0084A290 /* StarFullLarge@2x.png in Resources */,
+				93F637C21E5EE8BC006C97F3 /* radioButtonUnSelected@2x.png in Resources */,
+				846613281E52D2590080B308 /* LaunchScreen.storyboard in Resources */,
+				8466134C1E52D3090080B308 /* Final-Lemon-and-honey-Logo.jpg in Resources */,
+				93F6379D1E5C0204006C97F3 /* camera-icon@2x.png in Resources */,
+				8403AC6520664C4200F347C8 /* THPinViewController.bundle in Resources */,
+				8466137F1E5427A60080B308 /* key1.png in Resources */,
+				2DA253CF1F4AC53C0084A290 /* StarEmptyLarge@2x.png in Resources */,
+				93F637CA1E5EF747006C97F3 /* uncheck-box@2x.png in Resources */,
+				93F637C11E5EE8BC006C97F3 /* radioButtonSelected@2x.png in Resources */,
+				93F637A51E5C0EB5006C97F3 /* ClientIntakeForm.json in Resources */,
+				2DA253D41F4ADE800084A290 /* StarFullLarge@3x.png in Resources */,
+				8466137D1E54267A0080B308 /* key.png in Resources */,
+				846499E220C6AE2800A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.xib in Resources */,
+				93F637A31E5C0986006C97F3 /* forms.json in Resources */,
+				846613731E52ED070080B308 /* LICENSE in Resources */,
+				846499F020C6AE3B00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.xib in Resources */,
+				2DA253D31F4ADE800084A290 /* StarEmptyLarge@3x.png in Resources */,
+				93F637C91E5EF747006C97F3 /* check-box@2x.png in Resources */,
+				840D7DB11FC438FA008C78A1 /* back.png in Resources */,
+				846613251E52D2590080B308 /* Assets.xcassets in Resources */,
+				847A28D11E63FCCB00185E9D /* WellnessMembershipAgreements.json in Resources */,
+				846613231E52D2590080B308 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8466132C1E52D2590080B308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846613371E52D2590080B308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		268C238823AFC147528772BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lemon and honey Intake form AppUITests/Pods-Lemon and honey Intake form AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47A9772226D6246A6DFD7D25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lemon and honey Intake form AppTests/Pods-Lemon and honey Intake form AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70775B31EEEA2B63B9EEE611 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lemon and honey Intake form App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74D09022B24C96A3D6C7D08B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lemon and honey Intake form AppTests/Pods-Lemon and honey Intake form AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB1E5F3F0F6687C44416D389 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lemon and honey Intake form App/Pods-Lemon and honey Intake form App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/DYRateView/DYRateView.framework",
+				"${BUILT_PRODUCTS_DIR}/Form/Form.framework",
+				"${BUILT_PRODUCTS_DIR}/HYP8601/HYP8601.framework",
+				"${BUILT_PRODUCTS_DIR}/HYPImagePicker/HYPImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/HYPMathParser/HYPMathParser.framework",
+				"${BUILT_PRODUCTS_DIR}/HYPNorwegianAccountNumber/HYPNorwegianAccountNumber.framework",
+				"${BUILT_PRODUCTS_DIR}/HYPNorwegianSSN/HYPNorwegianSSN.framework",
+				"${BUILT_PRODUCTS_DIR}/Hex/Hex.framework",
+				"${BUILT_PRODUCTS_DIR}/NSDate-HYPString/NSDate_HYPString.framework",
+				"${BUILT_PRODUCTS_DIR}/NSDictionary-ANDYSafeValue/NSDictionary_ANDYSafeValue.framework",
+				"${BUILT_PRODUCTS_DIR}/NSDictionary-HYPImmutable/NSDictionary_HYPImmutable.framework",
+				"${BUILT_PRODUCTS_DIR}/NSDictionary-HYPNestedAttributes/NSDictionary_HYPNestedAttributes.framework",
+				"${BUILT_PRODUCTS_DIR}/NSJSONSerialization-ANDYJSONFile/NSJSONSerialization_ANDYJSONFile.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject-HYPTesting/NSObject_HYPTesting.framework",
+				"${BUILT_PRODUCTS_DIR}/NSString-HYPContainsString/NSString_HYPContainsString.framework",
+				"${BUILT_PRODUCTS_DIR}/NSString-HYPFormula/NSString_HYPFormula.framework",
+				"${BUILT_PRODUCTS_DIR}/NSString-HYPRelationshipParser/NSString_HYPRelationshipParser.framework",
+				"${BUILT_PRODUCTS_DIR}/NSString-HYPWordExtractor/NSString_HYPWordExtractor.framework",
+				"${BUILT_PRODUCTS_DIR}/NSString-ZENInflections/NSString_ZENInflections.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/UIViewController-HYPKeyboardToolbar/UIViewController_HYPKeyboardToolbar.framework",
+				"${BUILT_PRODUCTS_DIR}/XLForm/XLForm.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DYRateView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Form.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYP8601.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYPImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYPMathParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYPNorwegianAccountNumber.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYPNorwegianSSN.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hex.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSDate_HYPString.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSDictionary_ANDYSafeValue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSDictionary_HYPImmutable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSDictionary_HYPNestedAttributes.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSJSONSerialization_ANDYJSONFile.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_HYPTesting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSString_HYPContainsString.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSString_HYPFormula.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSString_HYPRelationshipParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSString_HYPWordExtractor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSString_ZENInflections.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIViewController_HYPKeyboardToolbar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLForm.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lemon and honey Intake form App/Pods-Lemon and honey Intake form App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB472F1A2188BC48F46C8152 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lemon and honey Intake form AppUITests/Pods-Lemon and honey Intake form AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0DD3FCE0FEE0A162AB65822 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lemon and honey Intake form App/Pods-Lemon and honey Intake form App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCEF56B383F3ADC4DCB745C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lemon and honey Intake form AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB713EB75BD7E752AF1D588C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lemon and honey Intake form AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846613111E52D2590080B308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8466139A1E545F380080B308 /* ActionSheetCustomPicker.m in Sources */,
+				8403AC6220664C4200F347C8 /* THPinInputCircleView.m in Sources */,
+				931C3C0D1E5FFBE800EE75E4 /* FormFieldObject.m in Sources */,
+				8466139D1E545F380080B308 /* ActionSheetLocalePicker.m in Sources */,
+				846613A01E545F380080B308 /* DistancePickerView.m in Sources */,
+				2D9A58811F610DD500693048 /* AppointmentsViewController.m in Sources */,
+				8403AC6420664C4200F347C8 /* UIImage+ImageEffects.m in Sources */,
+				846499ED20C6AE3B00A0BCF5 /* GMCheckBoxFormFieldDataModel.m in Sources */,
+				8403AC6020664C4200F347C8 /* THPinInputCirclesView.m in Sources */,
+				8403AC6320664C4200F347C8 /* THPinView.m in Sources */,
+				8403AC6720664C4200F347C8 /* THPinNumButton.m in Sources */,
+				8403AC6120664C4200F347C8 /* THPinViewController.m in Sources */,
+				846613751E52ED070080B308 /* README.mdown in Sources */,
+				846499E520C6AE2800A0BCF5 /* GMRadioButtonFormFieldDataModel.m in Sources */,
+				2D9A58821F610DD500693048 /* AppointmentsTableViewCell.m in Sources */,
+				931C3C011E5FEDF700EE75E4 /* GMFormTextFieldCell.m in Sources */,
+				93F6379E1E5C0204006C97F3 /* HYPImageFormFieldCell.m in Sources */,
+				846613201E52D2590080B308 /* ViewController.m in Sources */,
+				846499DA20C6972B00A0BCF5 /* GMFormDisabledTextFieldCell.m in Sources */,
+				846613511E52DA500080B308 /* ACFloatingTextField.m in Sources */,
+				845233591E67799900EECC90 /* SearchViewController.m in Sources */,
+				8466139E1E545F380080B308 /* ActionSheetMultipleStringPicker.m in Sources */,
+				846613681E52E69C0080B308 /* HelperFunctions.m in Sources */,
+				8466136D1E52E69C0080B308 /* UIViewController+BasicFunctions.m in Sources */,
+				93F6379F1E5C0204006C97F3 /* FormDisplayCollectionViewController.m in Sources */,
+				93F637D61E5F1407006C97F3 /* GMFormJsonManager.m in Sources */,
+				846499E320C6AE2800A0BCF5 /* GMRadioButtonFormFieldCollectionViewCell.m in Sources */,
+				846613A11E545F380080B308 /* SWActionSheet.m in Sources */,
+				93F637D31E5EF976006C97F3 /* GMSignatureViewFieldCell.m in Sources */,
+				8466136C1E52E69C0080B308 /* UIAlertController+Helper.m in Sources */,
+				846613791E52F2800080B308 /* FormSelectionViewController.m in Sources */,
+				931C3C091E5FFA8200EE75E4 /* AWSManager.m in Sources */,
+				8466139F1E545F380080B308 /* ActionSheetStringPicker.m in Sources */,
+				93F637D01E5EF8D1006C97F3 /* PPSSignatureView.m in Sources */,
+				8466136A1E52E69C0080B308 /* NSDictionary+Additions.m in Sources */,
+				846499D720C6527800A0BCF5 /* PopViewController.m in Sources */,
+				846613741E52ED070080B308 /* MBProgressHUD.m in Sources */,
+				8466136B1E52E69C0080B308 /* NSObject+JsonParsing.m in Sources */,
+				846613691E52E69C0080B308 /* NSArray+Additions.m in Sources */,
+				8466131D1E52D2590080B308 /* AppDelegate.m in Sources */,
+				2D9A58831F610DD500693048 /* Appointments.m in Sources */,
+				846499F620C6AE8000A0BCF5 /* RadioButton.m in Sources */,
+				8466139C1E545F380080B308 /* ActionSheetDistancePicker.m in Sources */,
+				8403AC6620664C4200F347C8 /* THPinNumPadView.m in Sources */,
+				8466139B1E545F380080B308 /* ActionSheetDatePicker.m in Sources */,
+				846499F520C6AE8000A0BCF5 /* CheckBoxButton.m in Sources */,
+				849B00661E64397A0028DD02 /* GMFormLabelCell.m in Sources */,
+				2DA253CC1F4ABE880084A290 /* GMRatingViewFieldCell.m in Sources */,
+				846499EE20C6AE3B00A0BCF5 /* GMCheckBoxFormFieldCollectionViewCell.m in Sources */,
+				8466131A1E52D2590080B308 /* main.m in Sources */,
+				846613991E545F380080B308 /* AbstractActionSheetPicker.m in Sources */,
+				846499EF20C6AE3B00A0BCF5 /* GMCheckBoxFormFieldCell.m in Sources */,
+				846499E420C6AE2800A0BCF5 /* GMRadioButtonFormFieldCell.m in Sources */,
+				93F637D91E5F3575006C97F3 /* GMForm.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8466132A1E52D2590080B308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846613331E52D2590080B308 /* Lemon_and_honey_Intake_form_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846613351E52D2590080B308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8466133E1E52D2590080B308 /* Lemon_and_honey_Intake_form_AppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846613301E52D2590080B308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846613141E52D2590080B308 /* Lemon and honey Intake form App */;
+			targetProxy = 8466132F1E52D2590080B308 /* PBXContainerItemProxy */;
+		};
+		8466133B1E52D2590080B308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846613141E52D2590080B308 /* Lemon and honey Intake form App */;
+			targetProxy = 8466133A1E52D2590080B308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846613211E52D2590080B308 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846613221E52D2590080B308 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846613261E52D2590080B308 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846613271E52D2590080B308 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846613401E52D2590080B308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		846613411E52D2590080B308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846613431E52D2590080B308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2CADC075EF3887490877B14 /* Pods-Lemon and honey Intake form App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N3V9KBCCA7;
+				INFOPLIST_FILE = "Lemon and honey Intake form App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webappclouds.sparemedeaseelectronicforms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		846613441E52D2590080B308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441D62133BD4372CD6311961 /* Pods-Lemon and honey Intake form App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N3V9KBCCA7;
+				INFOPLIST_FILE = "Lemon and honey Intake form App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webappclouds.sparemedeaseelectronicforms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		846613461E52D2590080B308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593491B3211EC33773A4A2FE /* Pods-Lemon and honey Intake form AppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZ2ZN628V5;
+				INFOPLIST_FILE = "Lemon and honey Intake form AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webappclouds.Lemon-and-honey-Intake-form-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemon and honey Intake form App.app/Lemon and honey Intake form App";
+			};
+			name = Debug;
+		};
+		846613471E52D2590080B308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA34DAAD3F47A43B08807888 /* Pods-Lemon and honey Intake form AppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZ2ZN628V5;
+				INFOPLIST_FILE = "Lemon and honey Intake form AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webappclouds.Lemon-and-honey-Intake-form-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemon and honey Intake form App.app/Lemon and honey Intake form App";
+			};
+			name = Release;
+		};
+		846613491E52D2590080B308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23488286B0CE412EAC5857AB /* Pods-Lemon and honey Intake form AppUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BZ2ZN628V5;
+				INFOPLIST_FILE = "Lemon and honey Intake form AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webappclouds.Lemon-and-honey-Intake-form-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lemon and honey Intake form App";
+			};
+			name = Debug;
+		};
+		8466134A1E52D2590080B308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD57C8BF472196927BB83C91 /* Pods-Lemon and honey Intake form AppUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BZ2ZN628V5;
+				INFOPLIST_FILE = "Lemon and honey Intake form AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webappclouds.Lemon-and-honey-Intake-form-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lemon and honey Intake form App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846613101E52D2590080B308 /* Build configuration list for PBXProject "Lemon and honey Intake form App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846613401E52D2590080B308 /* Debug */,
+				846613411E52D2590080B308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846613421E52D2590080B308 /* Build configuration list for PBXNativeTarget "Lemon and honey Intake form App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846613431E52D2590080B308 /* Debug */,
+				846613441E52D2590080B308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846613451E52D2590080B308 /* Build configuration list for PBXNativeTarget "Lemon and honey Intake form AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846613461E52D2590080B308 /* Debug */,
+				846613471E52D2590080B308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846613481E52D2590080B308 /* Build configuration list for PBXNativeTarget "Lemon and honey Intake form AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846613491E52D2590080B308 /* Debug */,
+				8466134A1E52D2590080B308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8466130D1E52D2590080B308 /* Project object */;
+}

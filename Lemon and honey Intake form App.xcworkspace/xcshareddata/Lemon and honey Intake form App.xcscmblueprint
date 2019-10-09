@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "60C1C0C584F6A89CC89B82A5691B6C7BF2C3C3A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E8FD2CDAB905B2E8AEEBBEE2B2CEEE7351A35939" : 9223372036854775807,
+    "AD2DBDE2690EA82296523CE5CEB660E55EB7CB70" : 9223372036854775807,
+    "60C1C0C584F6A89CC89B82A5691B6C7BF2C3C3A3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0A4BEC2B-650D-4FEE-8939-68A78973615F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E8FD2CDAB905B2E8AEEBBEE2B2CEEE7351A35939" : "lemonhoneyintakeformios\/",
+    "AD2DBDE2690EA82296523CE5CEB660E55EB7CB70" : "",
+    "60C1C0C584F6A89CC89B82A5691B6C7BF2C3C3A3" : "spa-remedease-intake-form\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Lemon and honey Intake form App",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Lemon and honey Intake form App.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/Srikanth1149\/spa-remedease-intake-form.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60C1C0C584F6A89CC89B82A5691B6C7BF2C3C3A3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/Guri_ee\/gurie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD2DBDE2690EA82296523CE5CEB660E55EB7CB70"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/webappcloudsteam\/lemonhoneyintakeformios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E8FD2CDAB905B2E8AEEBBEE2B2CEEE7351A35939"
+    }
+  ]
+}
