@@ -1,6 +1,0 @@
-framework module DYRateView {
-  umbrella header "DYRateView-umbrella.h"
-
-  export *
-  module * { export * }
-}
