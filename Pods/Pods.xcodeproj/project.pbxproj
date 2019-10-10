@@ -894,7 +894,7 @@
 		01AFDF9A5745A0F6EFA5A43DFC4AEF33 /* FORMViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMViewController.m; path = Source/FORMViewController.m; sourceTree = "<group>"; };
 		0211B14C98787715D9578380E58B1959 /* NSDate-HYPString.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSDate-HYPString.xcconfig"; sourceTree = "<group>"; };
 		0247E36FB7B5091BF00B39F7A040BE33 /* XLFormDatePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDatePickerCell.h; path = XLForm/XL/Cell/XLFormDatePickerCell.h; sourceTree = "<group>"; };
-		029DEEF0945E034A5830BA7CF6433725 /* NSString_HYPContainsString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSString_HYPContainsString.framework; path = "NSString-HYPContainsString.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		029DEEF0945E034A5830BA7CF6433725 /* NSString_HYPContainsString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_HYPContainsString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E8AC18F9FB280FEE7805449FA41171 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		030C3259B5FE712CC4DB48F1E5A5BDA1 /* AWSFMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSFMDatabaseQueue.m; path = AWSCore/FMDB/AWSFMDatabaseQueue.m; sourceTree = "<group>"; };
 		031A786B7401CF1FD2BE76E2CEF3EE9D /* NSObject-HYPTesting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSObject-HYPTesting.xcconfig"; sourceTree = "<group>"; };
@@ -913,18 +913,18 @@
 		07BD0C9B07C442976E9FC97B1BA8A0F8 /* AWSS3Model.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSS3Model.m; path = AWSS3/AWSS3Model.m; sourceTree = "<group>"; };
 		08450AFB2F8977AB155891D3F048E53A /* AWSXMLWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSXMLWriter.m; path = AWSCore/XMLWriter/AWSXMLWriter.m; sourceTree = "<group>"; };
 		08C7347FA5202201E1F6794E03356EE2 /* XLFormTextFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormTextFieldCell.h; path = XLForm/XL/Cell/XLFormTextFieldCell.h; sourceTree = "<group>"; };
-		0917B7A5165F13DC8589A1884731D270 /* NSString-HYPWordExtractor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSString-HYPWordExtractor.modulemap"; sourceTree = "<group>"; };
+		0917B7A5165F13DC8589A1884731D270 /* NSString-HYPWordExtractor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSString-HYPWordExtractor.modulemap"; sourceTree = "<group>"; };
 		09E00DD71F922009E667D83694762C6A /* NSString+HYPContainsString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HYPContainsString.h"; path = "Source/NSString+HYPContainsString.h"; sourceTree = "<group>"; };
 		0A181AAED84CCA0D5BECCED5BBF1A4FB /* XLFormValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormValidator.m; path = XLForm/XL/Validation/XLFormValidator.m; sourceTree = "<group>"; };
 		0A20F0AC2E03EE5D987B60E66CA138B7 /* HYPParsedRelationship.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPParsedRelationship.m; path = Source/HYPParsedRelationship.m; sourceTree = "<group>"; };
 		0A303652115C003A8D89FDBC4514589C /* FORMLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMLayoutAttributes.m; path = Source/FORMLayoutAttributes.m; sourceTree = "<group>"; };
 		0A62F5BF46DAB906960F685CC5C338E9 /* NSDictionary-ANDYSafeValue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary-ANDYSafeValue-dummy.m"; sourceTree = "<group>"; };
 		0A6F21B9DBCA5955E9D1E845C72FF67F /* AWSMTLJSONAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSMTLJSONAdapter.m; path = AWSCore/Mantle/AWSMTLJSONAdapter.m; sourceTree = "<group>"; };
-		0A913B6ED778A83B4D86C1A0F2F97FBF /* NSDate-HYPString.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSDate-HYPString.modulemap"; sourceTree = "<group>"; };
+		0A913B6ED778A83B4D86C1A0F2F97FBF /* NSDate-HYPString.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSDate-HYPString.modulemap"; sourceTree = "<group>"; };
 		0B019974052C27BE635E7FEDE2A33B17 /* AWSClientContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSClientContext.m; path = AWSCore/Service/AWSClientContext.m; sourceTree = "<group>"; };
 		0B246555CE858E079A770EC93FC77D50 /* FORMFloatFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMFloatFormatter.h; path = Source/Formatters/FORMFloatFormatter.h; sourceTree = "<group>"; };
 		0B5688717982B66AE8E19CBE801ED05A /* AWSCredentialsProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCredentialsProvider.h; path = AWSCore/Authentication/AWSCredentialsProvider.h; sourceTree = "<group>"; };
-		0B581FD33E508D979C3B2814E46ED918 /* NSDictionary-HYPNestedAttributes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSDictionary-HYPNestedAttributes.modulemap"; sourceTree = "<group>"; };
+		0B581FD33E508D979C3B2814E46ED918 /* NSDictionary-HYPNestedAttributes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSDictionary-HYPNestedAttributes.modulemap"; sourceTree = "<group>"; };
 		0C24187354C5794A31746363A53F7232 /* Pods-Lemon and honey Intake form AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lemon and honey Intake form AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0C3306DE53F730FAD7FFEEEC71BE9CB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C44E58866D796E26553DADE02BE72E8 /* XLFormBaseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormBaseCell.m; path = XLForm/XL/Cell/XLFormBaseCell.m; sourceTree = "<group>"; };
@@ -934,9 +934,9 @@
 		0E89819079FAC7335E202BA79EE3B232 /* XLFormSectionDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormSectionDescriptor.m; path = XLForm/XL/Descriptors/XLFormSectionDescriptor.m; sourceTree = "<group>"; };
 		0EBB2B401FF1E5B9657E190827AA892E /* FORMSocialSecurityNumberValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMSocialSecurityNumberValidator.m; path = Source/Validators/FORMSocialSecurityNumberValidator.m; sourceTree = "<group>"; };
 		0ED4DF57E79FB49B689CD9BCBBE09154 /* XLFormDateCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDateCell.h; path = XLForm/XL/Cell/XLFormDateCell.h; sourceTree = "<group>"; };
-		0F4C1A981C299A8F95F39D3908900640 /* NSString-HYPRelationshipParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSString-HYPRelationshipParser.modulemap"; sourceTree = "<group>"; };
+		0F4C1A981C299A8F95F39D3908900640 /* NSString-HYPRelationshipParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSString-HYPRelationshipParser.modulemap"; sourceTree = "<group>"; };
 		0F62CEBA0A8AB0DF5888AF37817EB907 /* NSDictionary-HYPImmutable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-HYPImmutable-prefix.pch"; sourceTree = "<group>"; };
-		0F70B35ABF1F8A959BE53FA00A9E130F /* NSString_HYPWordExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSString_HYPWordExtractor.framework; path = "NSString-HYPWordExtractor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F70B35ABF1F8A959BE53FA00A9E130F /* NSString_HYPWordExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_HYPWordExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAA32B8018AB3C765E27E53B83C345C /* FORMValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMValidator.m; path = Source/Validators/FORMValidator.m; sourceTree = "<group>"; };
 		0FAF64C484A9E7B8B3007F0441352B77 /* AWSNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSNetworking.m; path = AWSCore/Networking/AWSNetworking.m; sourceTree = "<group>"; };
 		0FF89FD9C4F8C7811D08BDEA651F5505 /* FORMFieldValueLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMFieldValueLabel.m; path = Source/Cells/Views/FORMFieldValueLabel.m; sourceTree = "<group>"; };
@@ -970,7 +970,7 @@
 		1AD04F59598FD06742566E877D8D5CF6 /* HYPNorwegianSSN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPNorwegianSSN.m; path = Source/HYPNorwegianSSN.m; sourceTree = "<group>"; };
 		1AEF96257B725BCD7B1A1138B669D5E5 /* NSString-HYPContainsString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString-HYPContainsString-dummy.m"; sourceTree = "<group>"; };
 		1B23BB11EA0C778BF3BBCEA69C5B6506 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B2F63BEF52BECE87E22FCA413F08F60 /* Form.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Form.modulemap; sourceTree = "<group>"; };
+		1B2F63BEF52BECE87E22FCA413F08F60 /* Form.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Form.modulemap; sourceTree = "<group>"; };
 		1B791B80188698F124AC90E5F27607B2 /* AWSServiceEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSServiceEnum.h; path = AWSCore/Service/AWSServiceEnum.h; sourceTree = "<group>"; };
 		1BCF3EA09EC778CC2BAC9C271D9F4F0B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		1C249276DA1F4FC3B9C461BE51B88140 /* Form-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Form-umbrella.h"; sourceTree = "<group>"; };
@@ -998,17 +998,17 @@
 		26511EF45AC299A0F21FAFEB51820B2A /* NSDictionary-HYPNestedAttributes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSDictionary-HYPNestedAttributes.xcconfig"; sourceTree = "<group>"; };
 		266BA858987F7CD6DE93370FB827F054 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2786AF693E2B3BB1DEE362AAA1BBCAD0 /* NSJSONSerialization-ANDYJSONFile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization-ANDYJSONFile-dummy.m"; sourceTree = "<group>"; };
-		27A9ED621555313C828232D83312CA01 /* HYPNorwegianAccountNumber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HYPNorwegianAccountNumber.modulemap; sourceTree = "<group>"; };
-		27D466E88ED0CC2580CDA9E8869CCEC3 /* HYP8601.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYP8601.framework; path = HYP8601.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2839BA360A8644341895572131BB8033 /* NSDictionary-ANDYSafeValue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSDictionary-ANDYSafeValue.modulemap"; sourceTree = "<group>"; };
+		27A9ED621555313C828232D83312CA01 /* HYPNorwegianAccountNumber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HYPNorwegianAccountNumber.modulemap; sourceTree = "<group>"; };
+		27D466E88ED0CC2580CDA9E8869CCEC3 /* HYP8601.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYP8601.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2839BA360A8644341895572131BB8033 /* NSDictionary-ANDYSafeValue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSDictionary-ANDYSafeValue.modulemap"; sourceTree = "<group>"; };
 		286BDF053F8473B166EEE54F380E451F /* AWSInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSInfo.m; path = AWSCore/Service/AWSInfo.m; sourceTree = "<group>"; };
-		28B2ABC13B5C272864BCA933F46429FD /* NSString-ZENInflections.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSString-ZENInflections.modulemap"; sourceTree = "<group>"; };
+		28B2ABC13B5C272864BCA933F46429FD /* NSString-ZENInflections.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSString-ZENInflections.modulemap"; sourceTree = "<group>"; };
 		2975F57AAD61EB742D12EFB376CED3D9 /* NSDate-HYPString-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate-HYPString-umbrella.h"; sourceTree = "<group>"; };
 		29A3CADC83FB672A30E0710101C09096 /* NSString+HYPContainsString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HYPContainsString.m"; path = "Source/NSString+HYPContainsString.m"; sourceTree = "<group>"; };
 		29A3E561EB6947036FEC58B3416F96E1 /* AWSS3TransferManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSS3TransferManager.m; path = AWSS3/AWSS3TransferManager.m; sourceTree = "<group>"; };
 		2A3746D1B1538A2A7D59279422DC8A77 /* AWSS3TransferUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSS3TransferUtility.m; path = AWSS3/AWSS3TransferUtility.m; sourceTree = "<group>"; };
 		2A85877B64B79B5C812C271569448BC4 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
-		2AD87D89FA1F92D45294C61ABA7D8D5E /* HYPMathParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYPMathParser.framework; path = HYPMathParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD87D89FA1F92D45294C61ABA7D8D5E /* HYPMathParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYPMathParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B48642C05DE177BB8C0D794A5BAD864 /* StarEmpty.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = StarEmpty.png; path = DYRateView/Resources/StarEmpty.png; sourceTree = "<group>"; };
 		2B95E7D7C4CE855CA24A6CFC0F9C2D05 /* AWSS3RequestRetryHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSS3RequestRetryHandler.m; path = AWSS3/AWSS3RequestRetryHandler.m; sourceTree = "<group>"; };
 		2C0CFE80B611E70B368796CCF7FE0205 /* XLFormPickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormPickerCell.h; path = XLForm/XL/Cell/XLFormPickerCell.h; sourceTree = "<group>"; };
@@ -1026,7 +1026,7 @@
 		3131E52F9657F2E522AEED26690ADCE6 /* XLFormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormValidator.h; path = XLForm/XL/Validation/XLFormValidator.h; sourceTree = "<group>"; };
 		3132ACF7B4CE8B096344FBF0038D7EC3 /* FORMFieldValueLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMFieldValueLabel.h; path = Source/Cells/Views/FORMFieldValueLabel.h; sourceTree = "<group>"; };
 		3147C2973196711083F34870F8359078 /* NSString_ZENInflections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_ZENInflections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31F8D93462AF9A03D5DD988A3384D4A7 /* NSString_HYPRelationshipParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSString_HYPRelationshipParser.framework; path = "NSString-HYPRelationshipParser.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F8D93462AF9A03D5DD988A3384D4A7 /* NSString_HYPRelationshipParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_HYPRelationshipParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		323F400D227B8BEB07A8F2E33CC080B4 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		32ED6C517A54B3B0E6124A0FCF2B5881 /* NSString+HYPRelationshipParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HYPRelationshipParser.m"; path = "Source/NSString+HYPRelationshipParser.m"; sourceTree = "<group>"; };
 		32F48A22871669B691ED7A1673FA5433 /* AWSSTSResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSSTSResources.h; path = AWSCore/STS/AWSSTSResources.h; sourceTree = "<group>"; };
@@ -1041,7 +1041,7 @@
 		36C35AC2F7C571794BA9DF939345B8B6 /* ResourceBundle-Form-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Form-Info.plist"; sourceTree = "<group>"; };
 		3770A315D82E93A8E305BFC01CE5AFA7 /* AWSURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSURLResponseSerialization.h; path = AWSCore/Serialization/AWSURLResponseSerialization.h; sourceTree = "<group>"; };
 		37762861F6EDEE41B5B6648884E86501 /* AWSXMLDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSXMLDictionary.m; path = AWSCore/XMLDictionary/AWSXMLDictionary.m; sourceTree = "<group>"; };
-		386EBB49BF6D669E9976D445A9CC756A /* HYPMathParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HYPMathParser.modulemap; sourceTree = "<group>"; };
+		386EBB49BF6D669E9976D445A9CC756A /* HYPMathParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HYPMathParser.modulemap; sourceTree = "<group>"; };
 		389D07A996DC7B11FCB0B4F048DCD783 /* HYPNorwegianSSN-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYPNorwegianSSN-dummy.m"; sourceTree = "<group>"; };
 		390B4A7F1D334C52106C4DF2F0C33366 /* AWSLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSLogging.m; path = AWSCore/Utility/AWSLogging.m; sourceTree = "<group>"; };
 		392E69B36199AEFD93F7B45064FC7155 /* FORMDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMDataSource.m; path = Source/FORMDataSource.m; sourceTree = "<group>"; };
@@ -1049,21 +1049,21 @@
 		3A8A2502CAD7E1851EDA6EF55BEEDE02 /* DDTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTypes.h; path = DDMathParser/DDTypes.h; sourceTree = "<group>"; };
 		3BAA221F0A27442415D70892D31FCDF7 /* NSDictionary-ANDYSafeValue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSDictionary-ANDYSafeValue.xcconfig"; sourceTree = "<group>"; };
 		3C888756FA2CE9CF498993E6551961A4 /* FABKitProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABKitProtocol.h; path = AWSCore/Fabric/FABKitProtocol.h; sourceTree = "<group>"; };
-		3C9A623CBB0F8ED26A94B51880794392 /* AWSS3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AWSS3.modulemap; sourceTree = "<group>"; };
+		3C9A623CBB0F8ED26A94B51880794392 /* AWSS3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AWSS3.modulemap; sourceTree = "<group>"; };
 		3CDC4EBC238192A78989C234DC5D0B0F /* AWSFMDatabase+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AWSFMDatabase+Private.h"; path = "AWSCore/FMDB/AWSFMDatabase+Private.h"; sourceTree = "<group>"; };
-		3CE0523427A4B06C476CD259ADDC780B /* NSDate_HYPString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSDate_HYPString.framework; path = "NSDate-HYPString.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE0523427A4B06C476CD259ADDC780B /* NSDate_HYPString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSDate_HYPString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D32AB516BD0587E1D4CF377F284DE17 /* NSString-HYPWordExtractor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-HYPWordExtractor-prefix.pch"; sourceTree = "<group>"; };
 		3D394A4F12B98CB05D5AA22CAE9AF596 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
 		3D7EE137FFA04A8245DE4AF3423F81ED /* AWSEXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSEXTRuntimeExtensions.h; path = AWSCore/Mantle/extobjc/AWSEXTRuntimeExtensions.h; sourceTree = "<group>"; };
 		3DE9169E7BC77EDDC6A18BE517D8EDCD /* FORMPhoneNumberFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMPhoneNumberFormatter.m; path = Source/Formatters/FORMPhoneNumberFormatter.m; sourceTree = "<group>"; };
 		3E133679B3FF808A3986B0900459089B /* FORMInputValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMInputValidator.h; path = "Source/Input Validators/FORMInputValidator.h"; sourceTree = "<group>"; };
-		3E4A4B38888C2BA7B5A10033EF8CDB63 /* Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hex.framework; path = Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4A4B38888C2BA7B5A10033EF8CDB63 /* Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAB55D5A53E9C6F589E6BB661086B7A /* AWSCognitoIdentityService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCognitoIdentityService.m; path = AWSCore/CognitoIdentity/AWSCognitoIdentityService.m; sourceTree = "<group>"; };
 		3ED28F2C3A721C4DAC2CA30E116ED481 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		3F40A5B9397CA16C3FB0A10750E5D6ED /* AWSCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCategory.m; path = AWSCore/Utility/AWSCategory.m; sourceTree = "<group>"; };
 		3F7BD358BABE558C84D30352FD75627E /* AWSCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCancellationTokenSource.h; path = AWSCore/Bolts/AWSCancellationTokenSource.h; sourceTree = "<group>"; };
 		4052F5E79AF41AC55D5D4B29F98440DB /* AWSS3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWSS3.xcconfig; sourceTree = "<group>"; };
-		40D4DB71F9D46BBF7B2049CE7FB2688F /* NSObject-HYPTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSObject-HYPTesting.modulemap"; sourceTree = "<group>"; };
+		40D4DB71F9D46BBF7B2049CE7FB2688F /* NSObject-HYPTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSObject-HYPTesting.modulemap"; sourceTree = "<group>"; };
 		413A269EF03E10F00968ADF8E381D8AF /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
 		419EAFFF6CCCAE3D1C09E2AA24E7AD20 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = AWSCore/Fabric/Fabric.h; sourceTree = "<group>"; };
 		4226D7FD9EEE2528BF2361B00BB2ADB0 /* XLFormImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormImageCell.h; path = XLForm/XL/Cell/XLFormImageCell.h; sourceTree = "<group>"; };
@@ -1077,15 +1077,15 @@
 		449ED76B34F192D75B60B19C825B12A6 /* Hex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hex.xcconfig; sourceTree = "<group>"; };
 		44BFBA48D92730A5306122732BCE0077 /* NSString-HYPFormula-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-HYPFormula-umbrella.h"; sourceTree = "<group>"; };
 		45765BD317944454801349C781C138A2 /* UIView+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XLFormAdditions.m"; path = "XLForm/XL/Helpers/UIView+XLFormAdditions.m"; sourceTree = "<group>"; };
-		45E002CE424380F72547CE2E1BEDD22B /* NSDictionary_HYPNestedAttributes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSDictionary_HYPNestedAttributes.framework; path = "NSDictionary-HYPNestedAttributes.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46FDE880217CE76985AC702E5B2DB7AD /* AWSS3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWSS3.framework; path = AWSS3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E002CE424380F72547CE2E1BEDD22B /* NSDictionary_HYPNestedAttributes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSDictionary_HYPNestedAttributes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FDE880217CE76985AC702E5B2DB7AD /* AWSS3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSS3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A5A2203412911AA9CA41159D15712D /* AWSIdentityProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSIdentityProvider.h; path = AWSCore/Authentication/AWSIdentityProvider.h; sourceTree = "<group>"; };
 		47DDB759AFF3230174A8D9DEC83B490D /* FORMBankAccountNumberFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMBankAccountNumberFormatter.m; path = Source/Formatters/FORMBankAccountNumberFormatter.m; sourceTree = "<group>"; };
 		48257402B8068F1E22899D0061292E49 /* XLFormOptionsObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormOptionsObject.m; path = XLForm/XL/Controllers/XLFormOptionsObject.m; sourceTree = "<group>"; };
 		487346B1E9D9C59475E3FD2C014131D4 /* AWSTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSTask.m; path = AWSCore/Bolts/AWSTask.m; sourceTree = "<group>"; };
 		48AEEEA1F439D24A1BF30CC873A2D1CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		495ED94C4B4E672FDAD47FA800D8BA0C /* NSPredicate+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+XLFormAdditions.m"; path = "XLForm/XL/Helpers/NSPredicate+XLFormAdditions.m"; sourceTree = "<group>"; };
-		498D25C2BFE3951BE66B162450752036 /* AWSCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AWSCore.modulemap; sourceTree = "<group>"; };
+		498D25C2BFE3951BE66B162450752036 /* AWSCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AWSCore.modulemap; sourceTree = "<group>"; };
 		498FACCB01FB9DDDFB5F01D757FB0A54 /* AWSFMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSFMResultSet.h; path = AWSCore/FMDB/AWSFMResultSet.h; sourceTree = "<group>"; };
 		4AC0D86D747086D1A8ACBAF225A0EFD0 /* FORMBankAccountNumberInputValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMBankAccountNumberInputValidator.h; path = "Source/Input Validators/FORMBankAccountNumberInputValidator.h"; sourceTree = "<group>"; };
 		4ACE523741CF4916376B0AE7B4CE242C /* FORMSpacerFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMSpacerFieldCell.m; path = Source/Cells/Spacer/FORMSpacerFieldCell.m; sourceTree = "<group>"; };
@@ -1102,15 +1102,15 @@
 		4D6600113C372E8661A21EF6C077F0B4 /* _DDNumberExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _DDNumberExpression.h; path = DDMathParser/_DDNumberExpression.h; sourceTree = "<group>"; };
 		4E47CFF2B22E01236C4B0CAC2C33C632 /* FORMTextFieldTypeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMTextFieldTypeManager.h; path = Source/Cells/Views/FORMTextFieldTypeManager.h; sourceTree = "<group>"; };
 		4E713111858396E947888B3260625CE7 /* FORMPostalCodeInputValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMPostalCodeInputValidator.m; path = "Source/Input Validators/FORMPostalCodeInputValidator.m"; sourceTree = "<group>"; };
-		4E8A92A188FD7062D6EB43FCF8661175 /* NSJSONSerialization-ANDYJSONFile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSJSONSerialization-ANDYJSONFile.modulemap"; sourceTree = "<group>"; };
+		4E8A92A188FD7062D6EB43FCF8661175 /* NSJSONSerialization-ANDYJSONFile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSJSONSerialization-ANDYJSONFile.modulemap"; sourceTree = "<group>"; };
 		4EB3DFACD17ADF389336DDE04D2D3BE5 /* AWSCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCancellationTokenSource.m; path = AWSCore/Bolts/AWSCancellationTokenSource.m; sourceTree = "<group>"; };
 		4EC0EBFE33B6790C3465876DB0F58624 /* XLFormOptionsObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormOptionsObject.h; path = XLForm/XL/Controllers/XLFormOptionsObject.h; sourceTree = "<group>"; };
 		50061DFFEC6F414575B266B33129BEBC /* NSDictionary-HYPImmutable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSDictionary-HYPImmutable.xcconfig"; sourceTree = "<group>"; };
-		50A1C4E6DF108882C5F8CE83C53EEB87 /* XLForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLForm.framework; path = XLForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A1C4E6DF108882C5F8CE83C53EEB87 /* XLForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ECCDD4071773A4924867CE6D3CD392 /* FORMFloatInputValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMFloatInputValidator.h; path = "Source/Input Validators/FORMFloatInputValidator.h"; sourceTree = "<group>"; };
 		51471A885A27AEC7ED7C1F56588DF350 /* HYPNorwegianAccountNumber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYPNorwegianAccountNumber-umbrella.h"; sourceTree = "<group>"; };
 		5165B8014A486976882A67581A4B12B4 /* FORMSocialSecurityNumberInputValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMSocialSecurityNumberInputValidator.h; path = "Source/Input Validators/FORMSocialSecurityNumberInputValidator.h"; sourceTree = "<group>"; };
-		51D24912A4F87FA0D798A0667377C85D /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D24912A4F87FA0D798A0667377C85D /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5248B95C99094C26F9941314FAD23877 /* NSString-HYPContainsString-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-HYPContainsString-prefix.pch"; sourceTree = "<group>"; };
 		528861AE19D61AD51E9D8FA3CE3AAE07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E30BEDEB484DDE90CEB6E9D91AFE59 /* NSObject-HYPTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject-HYPTesting-umbrella.h"; sourceTree = "<group>"; };
@@ -1128,7 +1128,7 @@
 		56D33919DB3E25806F8A7715587F03B1 /* FORMFieldValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMFieldValidation.h; path = Source/Models/FORMFieldValidation.h; sourceTree = "<group>"; };
 		578CC8B9836EBA07AAAF6EDF50FE1058 /* XLFormSegmentedCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSegmentedCell.h; path = XLForm/XL/Cell/XLFormSegmentedCell.h; sourceTree = "<group>"; };
 		583369F4C478E85994BA0B3D4E56A007 /* Form-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Form-dummy.m"; sourceTree = "<group>"; };
-		59CB7526C195AA2C5C5C0261588FF92C /* HYPImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HYPImagePicker.modulemap; sourceTree = "<group>"; };
+		59CB7526C195AA2C5C5C0261588FF92C /* HYPImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HYPImagePicker.modulemap; sourceTree = "<group>"; };
 		5A1241AE90305A316F394871B1941C89 /* NSJSONSerialization-ANDYJSONFile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSJSONSerialization-ANDYJSONFile.xcconfig"; sourceTree = "<group>"; };
 		5A34272BA12D6E5C59EC22C0323FB37A /* DDTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTypes.m; path = DDMathParser/DDTypes.m; sourceTree = "<group>"; };
 		5A531D8CE7D9323408CCA52A98A0B648 /* NSValueTransformer+AWSMTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+AWSMTLInversionAdditions.h"; path = "AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h"; sourceTree = "<group>"; };
@@ -1142,10 +1142,10 @@
 		5D22DFD949BBC1A937DDB33F876749F1 /* XLFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormViewController.h; path = XLForm/XL/Controllers/XLFormViewController.h; sourceTree = "<group>"; };
 		5DD70B9C801474804D4D04DAB6511EEF /* DDMathEvaluator+FORM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDMathEvaluator+FORM.m"; path = "Source/Others/DDMathEvaluator+FORM.m"; sourceTree = "<group>"; };
 		5E668D816CCA40B551B510CF043BFD62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E86E38C72BA8EF40941A15D4122E319 /* Pods_Lemon_and_honey_Intake_form_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lemon_and_honey_Intake_form_App.framework; path = "Pods-Lemon and honey Intake form App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E86E38C72BA8EF40941A15D4122E319 /* Pods_Lemon_and_honey_Intake_form_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lemon_and_honey_Intake_form_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0F32F5A77C9500DE80BBAF9BF4E05A /* NSObject-HYPTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject-HYPTesting-dummy.m"; sourceTree = "<group>"; };
 		5F772E61156E451166D7EA87F189E94F /* AWSSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSSerialization.h; path = AWSCore/Serialization/AWSSerialization.h; sourceTree = "<group>"; };
-		5FCC99546A6BF988C56B8A14B78081EF /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		5FCC99546A6BF988C56B8A14B78081EF /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SDWebImage.modulemap; sourceTree = "<group>"; };
 		5FD3DBC594E97D2408966DAD2B702CBB /* AWSUICKeyChainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSUICKeyChainStore.h; path = AWSCore/UICKeyChainStore/AWSUICKeyChainStore.h; sourceTree = "<group>"; };
 		6041C274AE056A072298BEF8FD12B967 /* AWSMTLModel+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AWSMTLModel+NSCoding.m"; path = "AWSCore/Mantle/AWSMTLModel+NSCoding.m"; sourceTree = "<group>"; };
 		605F5754583C2CF545BA83E132B5BEDE /* FORMEmailFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMEmailFormatter.h; path = Source/Formatters/FORMEmailFormatter.h; sourceTree = "<group>"; };
@@ -1153,7 +1153,7 @@
 		6117E1F980BD44D55CCB8DCCBFF91BC9 /* AWSCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWSCore-prefix.pch"; sourceTree = "<group>"; };
 		6123E1940F9DF55AF670F6D476A55C08 /* AWSXMLWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSXMLWriter.h; path = AWSCore/XMLWriter/AWSXMLWriter.h; sourceTree = "<group>"; };
 		61442030E241BD68B4619D5DF3CF6B34 /* HYPNorwegianAccountNumber-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYPNorwegianAccountNumber-prefix.pch"; sourceTree = "<group>"; };
-		617C0587EF5E65129BD26BBD21143FED /* NSString_HYPFormula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSString_HYPFormula.framework; path = "NSString-HYPFormula.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		617C0587EF5E65129BD26BBD21143FED /* NSString_HYPFormula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_HYPFormula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D10CF87D5779D2AC8CC953C6F880F7 /* HYPImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYPImagePicker-umbrella.h"; sourceTree = "<group>"; };
 		6229ABEC040FA262655166EDA946F9AF /* AWSSTS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSSTS.h; path = AWSCore/STS/AWSSTS.h; sourceTree = "<group>"; };
 		633F4B76C8583B37E85E113449CBC577 /* _DDGroupTerm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _DDGroupTerm.m; path = DDMathParser/_DDGroupTerm.m; sourceTree = "<group>"; };
@@ -1162,15 +1162,15 @@
 		63B21AB2DF868F46072A2C41644D1E43 /* AWSS3Serializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSS3Serializer.m; path = AWSS3/AWSS3Serializer.m; sourceTree = "<group>"; };
 		6415025B772EB8D16CC95C9FE0EF5074 /* AWSCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCancellationToken.m; path = AWSCore/Bolts/AWSCancellationToken.m; sourceTree = "<group>"; };
 		64A3C8497D1D3B4DF9CDB880C0067C23 /* FORMBankAccountNumberFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMBankAccountNumberFormatter.h; path = Source/Formatters/FORMBankAccountNumberFormatter.h; sourceTree = "<group>"; };
-		64E1EA648D25A1AD4A13F13A4466C11F /* NSObject_HYPTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSObject_HYPTesting.framework; path = "NSObject-HYPTesting.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E1EA648D25A1AD4A13F13A4466C11F /* NSObject_HYPTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSObject_HYPTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64EAFC4672CA9DC3822D964FAB4ED666 /* NSString+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSString+XLFormAdditions.h"; sourceTree = "<group>"; };
-		64FC37A57138AC5D4251D9B63DAB79E0 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWSCore.framework; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FC37A57138AC5D4251D9B63DAB79E0 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6678687CDB846C565165DEBA26EA9649 /* AWSS3Model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSS3Model.h; path = AWSS3/AWSS3Model.h; sourceTree = "<group>"; };
 		67BB73F38FE054243B34C102D448C4A7 /* AWSSTSResources.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSSTSResources.m; path = AWSCore/STS/AWSSTSResources.m; sourceTree = "<group>"; };
 		6924C5799463EFFFEAA6D5CC78FEFF85 /* Pods-Lemon and honey Intake form App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lemon and honey Intake form App.release.xcconfig"; sourceTree = "<group>"; };
 		699EB94B17B448782C9C1CF33F361A38 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
 		69D8D8023DBC3186F1B1AE7965E584CE /* NSDictionary+AWSMTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+AWSMTLManipulationAdditions.h"; path = "AWSCore/Mantle/NSDictionary+AWSMTLManipulationAdditions.h"; sourceTree = "<group>"; };
-		6A1210E703D3E5950E5180EABCBD5CEC /* Pods_Lemon_and_honey_Intake_form_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lemon_and_honey_Intake_form_AppUITests.framework; path = "Pods-Lemon and honey Intake form AppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1210E703D3E5950E5180EABCBD5CEC /* Pods_Lemon_and_honey_Intake_form_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lemon_and_honey_Intake_form_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2BAF3C211D49FCAD413A3C40DFD2AF /* AWSCognitoIdentityResources.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCognitoIdentityResources.m; path = AWSCore/CognitoIdentity/AWSCognitoIdentityResources.m; sourceTree = "<group>"; };
 		6A4EFA01FD67E4F1C75AAB9397329885 /* FORMSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMSection.h; path = Source/Models/FORMSection.h; sourceTree = "<group>"; };
 		6AB2C5530C0CDE7618A908CA5FD902B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1184,7 +1184,7 @@
 		6DD3E9E728CFB892D500F178C6276546 /* XLForm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLForm-prefix.pch"; sourceTree = "<group>"; };
 		6DE823514264BE1B273085BA4662913B /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		6E0702A013B6456C498835C7C8A1507A /* NSDictionary-HYPNestedAttributes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary-HYPNestedAttributes-dummy.m"; sourceTree = "<group>"; };
-		6E2123F6A69A92256D44793FA329941F /* XLForm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XLForm.modulemap; sourceTree = "<group>"; };
+		6E2123F6A69A92256D44793FA329941F /* XLForm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XLForm.modulemap; sourceTree = "<group>"; };
 		6EAF3CA4356C1C3BA2A02D22176845C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F760119943543A0BFB5ACE16E7891BE /* NSString-HYPFormula-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-HYPFormula-prefix.pch"; sourceTree = "<group>"; };
 		6F8E7A75D0F84A41EA2A399112E44228 /* NSString+HYPFormula.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HYPFormula.h"; path = "Source/NSString+HYPFormula.h"; sourceTree = "<group>"; };
@@ -1219,7 +1219,7 @@
 		7AF99AE88AABA1D6630BE523B1574C3E /* Pods-Lemon and honey Intake form AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lemon and honey Intake form AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B3D69FB1AD6FB9B369A086E7E8D61DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B52AE31C7126E023EA7BE153C2A6909 /* NSString-HYPWordExtractor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-HYPWordExtractor-umbrella.h"; sourceTree = "<group>"; };
-		7C04DF7FB743F4E79AF5D0191975BB1E /* UIViewController-HYPKeyboardToolbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UIViewController-HYPKeyboardToolbar.modulemap"; sourceTree = "<group>"; };
+		7C04DF7FB743F4E79AF5D0191975BB1E /* UIViewController-HYPKeyboardToolbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIViewController-HYPKeyboardToolbar.modulemap"; sourceTree = "<group>"; };
 		7C07E677343B42049B0CA60BB97D1440 /* StarEmptyLarge@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "StarEmptyLarge@2x.png"; path = "DYRateView/Resources/StarEmptyLarge@2x.png"; sourceTree = "<group>"; };
 		7D2048F86FF2516CC3462719A30EAF01 /* FORMData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMData.m; path = Source/FORMData.m; sourceTree = "<group>"; };
 		7DB793FB6A103FAF2E602A5AFE76C00E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1245,7 +1245,7 @@
 		82410415DDF066F9D392F783B67812FA /* AWSEXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSEXTKeyPathCoding.h; path = AWSCore/Mantle/extobjc/AWSEXTKeyPathCoding.h; sourceTree = "<group>"; };
 		8277F60A3BFF8F19F135CF2FCD8B5C59 /* XLFormButtonCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormButtonCell.m; path = XLForm/XL/Cell/XLFormButtonCell.m; sourceTree = "<group>"; };
 		82BEFFF564A623CAA936F9756ADC75EE /* NSString-HYPRelationshipParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString-HYPRelationshipParser-dummy.m"; sourceTree = "<group>"; };
-		845BAD01ECAEBD4EC56486E0AD308178 /* HYP8601.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HYP8601.modulemap; sourceTree = "<group>"; };
+		845BAD01ECAEBD4EC56486E0AD308178 /* HYP8601.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HYP8601.modulemap; sourceTree = "<group>"; };
 		846BCEAB703A868BC4F3B18AF1D5F31B /* DDMathOperator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMathOperator.m; path = DDMathParser/DDMathOperator.m; sourceTree = "<group>"; };
 		850328248BD98663E4F4FF890ACD0589 /* DYRateView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYRateView-prefix.pch"; sourceTree = "<group>"; };
 		85343B9286C2B0CDD2C84F415A677A21 /* UIViewController+HYPTopViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HYPTopViewController.m"; path = "Source/Others/UIViewController+HYPTopViewController.m"; sourceTree = "<group>"; };
@@ -1268,7 +1268,7 @@
 		8C0D7CB0DEE91BD76667B4642249271A /* DDExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDExpression.m; path = DDMathParser/DDExpression.m; sourceTree = "<group>"; };
 		8D3D4B0E0FAFE54D37D8F2092839985D /* Pods-Lemon and honey Intake form AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lemon and honey Intake form AppUITests-dummy.m"; sourceTree = "<group>"; };
 		8D5365D97F567DC97355415EF4489FA9 /* AWSS3RequestRetryHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSS3RequestRetryHandler.h; path = AWSS3/AWSS3RequestRetryHandler.h; sourceTree = "<group>"; };
-		8D9013E563775FC40713C307CD0592E0 /* Form.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Form.framework; path = Form.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9013E563775FC40713C307CD0592E0 /* Form.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Form.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA507BDC5E4DC495EE27E1398B0B4E1 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
 		8DF4F73C5CFDFF02AC835CDF9552914C /* XLFormStepCounterCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormStepCounterCell.h; path = XLForm/XL/Cell/XLFormStepCounterCell.h; sourceTree = "<group>"; };
 		8E38E553BA512773B9D18F54B55FE286 /* XLFormSelectorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSelectorCell.h; path = XLForm/XL/Cell/XLFormSelectorCell.h; sourceTree = "<group>"; };
@@ -1277,7 +1277,7 @@
 		8FFF4591284A94C389BF16E268E7430D /* DDMathParserMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMathParserMacros.h; path = DDMathParser/DDMathParserMacros.h; sourceTree = "<group>"; };
 		90108902A90C054E07A6807A170ADC18 /* FORMBaseFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMBaseFieldCell.h; path = Source/Cells/Base/FORMBaseFieldCell.h; sourceTree = "<group>"; };
 		905D5FEA249D862B637BD8680A125EDA /* AWSSynchronizedMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSSynchronizedMutableDictionary.m; path = AWSCore/Utility/AWSSynchronizedMutableDictionary.m; sourceTree = "<group>"; };
-		912F219F4013D856B11AE4B09ADD7997 /* DYRateView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DYRateView.modulemap; sourceTree = "<group>"; };
+		912F219F4013D856B11AE4B09ADD7997 /* DYRateView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DYRateView.modulemap; sourceTree = "<group>"; };
 		9141A6D6DCFBB00AEB36DD65CAF58EB5 /* XLFormRegexValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormRegexValidator.m; path = XLForm/XL/Validation/XLFormRegexValidator.m; sourceTree = "<group>"; };
 		919BB570CC8327E771204F148236ED23 /* NSDictionary+HYPNestedAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+HYPNestedAttributes.m"; path = "Source/NSDictionary+HYPNestedAttributes.m"; sourceTree = "<group>"; };
 		91C05AD8969B02549CE05EFBAD5C105F /* AWSTMMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSTMMemoryCache.h; path = AWSCore/TMCache/AWSTMMemoryCache.h; sourceTree = "<group>"; };
@@ -1287,7 +1287,7 @@
 		928691FE2038F8211C652E8F26135751 /* FORMField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMField.m; path = Source/Models/FORMField.m; sourceTree = "<group>"; };
 		931904BD26CDA22F5A6C01B92B7ACFFD /* _DDPrecisionFunctionEvaluator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _DDPrecisionFunctionEvaluator.h; path = DDMathParser/_DDPrecisionFunctionEvaluator.h; sourceTree = "<group>"; };
 		93993614224509F1054416A93AB53BF7 /* NSError+AWSMTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+AWSMTLModelException.h"; path = "AWSCore/Mantle/NSError+AWSMTLModelException.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93BC24579276EB9D18944DC0BE080681 /* AWSMTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSMTLReflection.h; path = AWSCore/Mantle/AWSMTLReflection.h; sourceTree = "<group>"; };
 		93D36C00343726E7E6123537E768E6DF /* AWSCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCancellationToken.h; path = AWSCore/Bolts/AWSCancellationToken.h; sourceTree = "<group>"; };
 		93FDCE61DE3692EE8142FD279B34D92F /* DDMathOperator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMathOperator.h; path = DDMathParser/DDMathOperator.h; sourceTree = "<group>"; };
@@ -1302,11 +1302,11 @@
 		96CF1475615ED6965FE8692C0D871B24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96F5F8FAA90D26CCD027E548C0D65E2C /* FORMSeparatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMSeparatorView.m; path = Source/FORMSeparatorView.m; sourceTree = "<group>"; };
 		97065C5D6B64974ED098EF559DC60D1F /* clear@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clear@2x.png"; path = "Assets/clear@2x.png"; sourceTree = "<group>"; };
-		973E3D531D17BA78C4249944BA11A1D3 /* NSDictionary_ANDYSafeValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSDictionary_ANDYSafeValue.framework; path = "NSDictionary-ANDYSafeValue.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		973E3D531D17BA78C4249944BA11A1D3 /* NSDictionary_ANDYSafeValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSDictionary_ANDYSafeValue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9769A5572A0B088DEB54359F767448C1 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		9780966E0008F352B19B7EE3BB358F27 /* AWSTMCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSTMCache.h; path = AWSCore/TMCache/AWSTMCache.h; sourceTree = "<group>"; };
 		97B2972ED0CC0AC6A761DAB7EC5950F7 /* HYPMathParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYPMathParser-prefix.pch"; sourceTree = "<group>"; };
-		97E7A86606E4C0606E865D89717D774D /* NSDictionary_HYPImmutable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSDictionary_HYPImmutable.framework; path = "NSDictionary-HYPImmutable.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E7A86606E4C0606E865D89717D774D /* NSDictionary_HYPImmutable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSDictionary_HYPImmutable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E43217DEF5C6D2E988545B88812543 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98EF7F6A792D6E36290C4A6BA2E4D739 /* XLForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLForm.m; path = XLForm/XL/XLForm.m; sourceTree = "<group>"; };
 		99715DEDB76F79677A500313EA3550C6 /* HYPNorwegianAccountNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPNorwegianAccountNumber.h; path = Source/HYPNorwegianAccountNumber.h; sourceTree = "<group>"; };
@@ -1351,14 +1351,14 @@
 		AA01CCB31A5F3473746F0458D1752619 /* AWSTMDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSTMDiskCache.h; path = AWSCore/TMCache/AWSTMDiskCache.h; sourceTree = "<group>"; };
 		AA230FA71A2E181F3FD8D95461DD3CF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA62DEABACF437249832199D8382378B /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
-		AAE31FBDF2052C859DF6CB047D3BBBB7 /* UIViewController_HYPKeyboardToolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIViewController_HYPKeyboardToolbar.framework; path = "UIViewController-HYPKeyboardToolbar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE31FBDF2052C859DF6CB047D3BBBB7 /* UIViewController_HYPKeyboardToolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewController_HYPKeyboardToolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7BBE19BCD08306598238F4276E744C /* _DDFunctionEvaluator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _DDFunctionEvaluator.h; path = DDMathParser/_DDFunctionEvaluator.h; sourceTree = "<group>"; };
 		AB9493F435662C65CBF66EBF288B375A /* AWSFMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSFMDatabasePool.h; path = AWSCore/FMDB/AWSFMDatabasePool.h; sourceTree = "<group>"; };
 		ABAA610386C93A761809818E2466FDDA /* _DDNumberTerm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _DDNumberTerm.m; path = DDMathParser/_DDNumberTerm.m; sourceTree = "<group>"; };
 		ABD1C711E247B0AA3D393CC9FF7DDC8A /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
 		AD4052A5AED9DB2923122E1694908E60 /* Pods-Lemon and honey Intake form AppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lemon and honey Intake form AppTests-frameworks.sh"; sourceTree = "<group>"; };
 		AD7B1EA53D9C4DB8ADA20D127637B693 /* FORMPopoverFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMPopoverFieldCell.h; path = Source/Cells/Popover/FORMPopoverFieldCell.h; sourceTree = "<group>"; };
-		ADB1EB027B9BD4D4D66AA01F5685192D /* Pods_Lemon_and_honey_Intake_form_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lemon_and_honey_Intake_form_AppTests.framework; path = "Pods-Lemon and honey Intake form AppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB1EB027B9BD4D4D66AA01F5685192D /* Pods_Lemon_and_honey_Intake_form_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lemon_and_honey_Intake_form_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFD9BAD04821E5A8251B9EA8495E9D4 /* NSDictionary_HYPNestedAttributes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSDictionary_HYPNestedAttributes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1D110CD9966785D7100727F9092F75 /* NSObject+AWSMTLComparisonAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AWSMTLComparisonAdditions.m"; path = "AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.m"; sourceTree = "<group>"; };
 		AE469EA355E64C59090ABFE55ABA992E /* XLFormOptionsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormOptionsViewController.m; path = XLForm/XL/Controllers/XLFormOptionsViewController.m; sourceTree = "<group>"; };
@@ -1378,7 +1378,7 @@
 		B2F88F376B4289CB11640A5845820EDA /* NSObject_HYPTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSObject_HYPTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A367A83B6D8E6A3383E66DE73C1E25 /* NSDate-HYPString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate-HYPString-dummy.m"; sourceTree = "<group>"; };
 		B43C374A756CEB98B0C76F7DE3032B07 /* _DDOperatorTerm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _DDOperatorTerm.h; path = DDMathParser/_DDOperatorTerm.h; sourceTree = "<group>"; };
-		B463190DDC23716479066CB0D046DC00 /* DYRateView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DYRateView.framework; path = DYRateView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B463190DDC23716479066CB0D046DC00 /* DYRateView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYRateView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46F250C5C2C2F1B36F711F0D81AE73D /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		B5A4007C3F99C87B2AB292C3708F3362 /* UIColor+Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "Source/UIColor+Hex.swift"; sourceTree = "<group>"; };
 		B5BB57A560F353D6E286C04863BC556B /* NSDictionary+ANDYSafeValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ANDYSafeValue.h"; path = "Source/NSDictionary+ANDYSafeValue.h"; sourceTree = "<group>"; };
@@ -1388,7 +1388,7 @@
 		B64B36DC5CA458A474858EC71EA0F17E /* FORMFieldValuesTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMFieldValuesTableViewController.m; path = Source/Cells/Popover/FORMFieldValuesTableViewController.m; sourceTree = "<group>"; };
 		B734A16CD0E44951DA1D61618E274134 /* XLFormLeftRightSelectorCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormLeftRightSelectorCell.m; path = XLForm/XL/Cell/XLFormLeftRightSelectorCell.m; sourceTree = "<group>"; };
 		B7D76874002143DC9ED3ED4F0508B8F8 /* _DDFunctionExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _DDFunctionExpression.m; path = DDMathParser/_DDFunctionExpression.m; sourceTree = "<group>"; };
-		B82F31CED445D4692A7B2B9F4B278B6E /* HYPNorwegianAccountNumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYPNorwegianAccountNumber.framework; path = HYPNorwegianAccountNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82F31CED445D4692A7B2B9F4B278B6E /* HYPNorwegianAccountNumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYPNorwegianAccountNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9267D82EE8F1434F5603173A418E29B /* AWSCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCategory.h; path = AWSCore/Utility/AWSCategory.h; sourceTree = "<group>"; };
 		B98ED0906196EC0D33335F23F6213505 /* HYP8601.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYP8601.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C731AAF2E24AD0FD113D25E6E1B611 /* _DDFunctionTerm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _DDFunctionTerm.m; path = DDMathParser/_DDFunctionTerm.m; sourceTree = "<group>"; };
@@ -1403,15 +1403,15 @@
 		BC40FE60E5BE90D51E840A545955AD31 /* NSArray+AWSMTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+AWSMTLManipulationAdditions.m"; path = "AWSCore/Mantle/NSArray+AWSMTLManipulationAdditions.m"; sourceTree = "<group>"; };
 		BC45E440B3217C451BF1804E01964722 /* StarEmptyLarge.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = StarEmptyLarge.png; path = DYRateView/Resources/StarEmptyLarge.png; sourceTree = "<group>"; };
 		BC6C8111DF02B0182F661B11F6C95812 /* FORMFieldValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMFieldValue.h; path = Source/Models/FORMFieldValue.h; sourceTree = "<group>"; };
-		BCA095EE769C4C33D78B6E66543F36F3 /* NSString-HYPContainsString.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSString-HYPContainsString.modulemap"; sourceTree = "<group>"; };
+		BCA095EE769C4C33D78B6E66543F36F3 /* NSString-HYPContainsString.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSString-HYPContainsString.modulemap"; sourceTree = "<group>"; };
 		BCA455927B2BA53AAA17B6A84D4E62B5 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB1FCF2312723598E9A61E512528467 /* AWSSTSModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSSTSModel.m; path = AWSCore/STS/AWSSTSModel.m; sourceTree = "<group>"; };
 		BCC051A26E1BAA8AE13A1CD3FBA5131B /* UIViewController-HYPKeyboardToolbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController-HYPKeyboardToolbar-umbrella.h"; sourceTree = "<group>"; };
 		BD403FE273B6C75BFC86BFC809F7BE83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD87ED5159C6F802EC8D3E4BF733F49F /* NSDictionary-HYPImmutable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSDictionary-HYPImmutable.modulemap"; sourceTree = "<group>"; };
+		BD87ED5159C6F802EC8D3E4BF733F49F /* NSDictionary-HYPImmutable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSDictionary-HYPImmutable.modulemap"; sourceTree = "<group>"; };
 		BE466FC2BD3BF3B1C76E629D159B0612 /* StarFullLarge.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = StarFullLarge.png; path = DYRateView/Resources/StarFullLarge.png; sourceTree = "<group>"; };
 		BE8EB98C4B8B177881FDD6B00F32FD2B /* AWSS3Resources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSS3Resources.h; path = AWSS3/AWSS3Resources.h; sourceTree = "<group>"; };
-		BF2DF2E19F8D1BC174D5A3C99C493836 /* Form.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Form.bundle; path = Form.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2DF2E19F8D1BC174D5A3C99C493836 /* Form.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Form.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC6B7B042F57393B270C06149D338C9 /* HYPImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYPImagePicker-prefix.pch"; sourceTree = "<group>"; };
 		C057963F8F1E1E01E029D2C817C69E69 /* FORMFloatInputValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMFloatInputValidator.m; path = "Source/Input Validators/FORMFloatInputValidator.m"; sourceTree = "<group>"; };
 		C09D698AC2FEF7D6BAADF491CEF47458 /* NSJSONSerialization_ANDYJSONFile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSJSONSerialization_ANDYJSONFile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1426,7 +1426,7 @@
 		C9089C3DE4230158DC5ECB31356DC269 /* XLForm.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = XLForm.bundle; path = XLForm/XLForm.bundle; sourceTree = "<group>"; };
 		C930311F9B54B4C041F619EE330DB391 /* AWSS3TransferManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSS3TransferManager.h; path = AWSS3/AWSS3TransferManager.h; sourceTree = "<group>"; };
 		C97E5B084592452DFA0D3FF45F56B753 /* FORMTooltipView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMTooltipView.m; path = Source/FORMTooltipView.m; sourceTree = "<group>"; };
-		CA667F56552886A5C4330D5394267545 /* NSString_ZENInflections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSString_ZENInflections.framework; path = "NSString-ZENInflections.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA667F56552886A5C4330D5394267545 /* NSString_ZENInflections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_ZENInflections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA838315231A1E4B9E6CBD9F20DDE8C0 /* AWSS3Service.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSS3Service.h; path = AWSS3/AWSS3Service.h; sourceTree = "<group>"; };
 		CA9195626AC9A537657F6EDA48921127 /* AWSValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSValidation.h; path = AWSCore/Serialization/AWSValidation.h; sourceTree = "<group>"; };
 		CB753A20F88F4319AA6547769E7B6338 /* AWSUICKeyChainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSUICKeyChainStore.m; path = AWSCore/UICKeyChainStore/AWSUICKeyChainStore.m; sourceTree = "<group>"; };
@@ -1440,7 +1440,7 @@
 		D02C20B8E7D111BF446E6C6C503B3FEE /* HYP8601-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYP8601-prefix.pch"; sourceTree = "<group>"; };
 		D052B0B13D6CEE3F702E09E2A7A61399 /* Pods-Lemon and honey Intake form AppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lemon and honey Intake form AppTests-resources.sh"; sourceTree = "<group>"; };
 		D07A00F1DB2475E10893C1A943ECAF11 /* Pods-Lemon and honey Intake form App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lemon and honey Intake form App-resources.sh"; sourceTree = "<group>"; };
-		D0A97ACFF26E6F420A8286D3778631D4 /* HYPNorwegianSSN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYPNorwegianSSN.framework; path = HYPNorwegianSSN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A97ACFF26E6F420A8286D3778631D4 /* HYPNorwegianSSN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYPNorwegianSSN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B8D6FD636C4A36AED75C6EBF1455DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D123D92845A4DED07C6DABDFDC55B9E9 /* UIView+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XLFormAdditions.h"; path = "XLForm/XL/Helpers/UIView+XLFormAdditions.h"; sourceTree = "<group>"; };
 		D1E3B1CE646D5ADB88AD246C857C7F4A /* FORMPostalCodeValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMPostalCodeValidator.h; path = Source/Validators/FORMPostalCodeValidator.h; sourceTree = "<group>"; };
@@ -1455,7 +1455,7 @@
 		D550DF971AA8EA88E8E8A1EE2DB05F3E /* HYPNorwegianSSN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYPNorwegianSSN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5691B8B97F3AF442F5CD8EB5E4ACC17 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
 		D592D7CA6354B15579560937420927E1 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
-		D594DA678556ACF4226C2DBB6695D5C4 /* Pods-Lemon and honey Intake form AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Lemon and honey Intake form AppUITests.modulemap"; sourceTree = "<group>"; };
+		D594DA678556ACF4226C2DBB6695D5C4 /* Pods-Lemon and honey Intake form AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Lemon and honey Intake form AppUITests.modulemap"; sourceTree = "<group>"; };
 		D5DB67F9F52A1A11D7C5DAE6223909F4 /* FORMPostalCodeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMPostalCodeManager.m; path = Source/Others/FORMPostalCodeManager.m; sourceTree = "<group>"; };
 		D6B844B51C69C0DD20F265E845A754BE /* NSString-ZENInflections.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSString-ZENInflections.xcconfig"; sourceTree = "<group>"; };
 		D6D424EF474720338F7E425A7B1B7772 /* FORMLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMLayoutAttributes.h; path = Source/FORMLayoutAttributes.h; sourceTree = "<group>"; };
@@ -1471,8 +1471,8 @@
 		DA08A44194A6E4E8B844DE79FB3E06CB /* NSString_HYPContainsString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_HYPContainsString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1C0298F7767F5E7C15C97253CBB653 /* FORMTextFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMTextFieldCell.m; path = Source/Cells/Text/FORMTextFieldCell.m; sourceTree = "<group>"; };
 		DB278A2CB09BA936E307A40570AD1278 /* XLFormRowDescriptorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRowDescriptorViewController.h; path = XLForm/XL/Controllers/XLFormRowDescriptorViewController.h; sourceTree = "<group>"; };
-		DB382F0EEFCBD4EF88E38D05413C2D0B /* NSString-HYPFormula.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSString-HYPFormula.modulemap"; sourceTree = "<group>"; };
-		DC951E4FE2B62DCD5A407B9FDB0CFE9A /* Pods-Lemon and honey Intake form App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Lemon and honey Intake form App.modulemap"; sourceTree = "<group>"; };
+		DB382F0EEFCBD4EF88E38D05413C2D0B /* NSString-HYPFormula.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSString-HYPFormula.modulemap"; sourceTree = "<group>"; };
+		DC951E4FE2B62DCD5A407B9FDB0CFE9A /* Pods-Lemon and honey Intake form App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Lemon and honey Intake form App.modulemap"; sourceTree = "<group>"; };
 		DCC937411B284DB80DE0481B1BDA25E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD2090AA34FABF3B29F1B3DDBA6786E7 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		DD2FFC07FE8E296CE405168DD429C114 /* AWSFMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSFMDatabasePool.m; path = AWSCore/FMDB/AWSFMDatabasePool.m; sourceTree = "<group>"; };
@@ -1493,14 +1493,14 @@
 		E24CFED66FCFF0BC01B9F727A362C828 /* AWSS3PreSignedURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSS3PreSignedURL.h; path = AWSS3/AWSS3PreSignedURL.h; sourceTree = "<group>"; };
 		E2C2F7D014009903AAFE36186D381720 /* XLFormTextFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormTextFieldCell.m; path = XLForm/XL/Cell/XLFormTextFieldCell.m; sourceTree = "<group>"; };
 		E345A48A57B614CF0942B724ED7354B1 /* FORMDefaultStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMDefaultStyle.h; path = Source/FORMDefaultStyle.h; sourceTree = "<group>"; };
-		E39B5C051950223A6CF46B9FDD81A1FF /* Hex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hex.modulemap; sourceTree = "<group>"; };
+		E39B5C051950223A6CF46B9FDD81A1FF /* Hex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Hex.modulemap; sourceTree = "<group>"; };
 		E3CAB5EBDD7FFBC90766F3696DF9EF1B /* XLFormTextViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormTextViewCell.m; path = XLForm/XL/Cell/XLFormTextViewCell.m; sourceTree = "<group>"; };
 		E43731971A79E65CE126E6893E7576C2 /* XLFormInlineSelectorCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormInlineSelectorCell.m; path = XLForm/XL/Cell/XLFormInlineSelectorCell.m; sourceTree = "<group>"; };
 		E44301C36D32B3363F8A42A98A03D1E6 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		E5B1BD9412BD85EBEE3F2EFE28654937 /* AWSValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSValidation.m; path = AWSCore/Serialization/AWSValidation.m; sourceTree = "<group>"; };
 		E6ADD8268D06ABC5F5EBDE90C0242D5B /* AWSEXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSEXTRuntimeExtensions.m; path = AWSCore/Mantle/extobjc/AWSEXTRuntimeExtensions.m; sourceTree = "<group>"; };
 		E73184E1D230F7939DC4AAA732487FB7 /* FORMBankAccountNumberValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMBankAccountNumberValidator.m; path = Source/Validators/FORMBankAccountNumberValidator.m; sourceTree = "<group>"; };
-		E764D97204843C9A9EFBB2D2403F24D7 /* Pods-Lemon and honey Intake form AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Lemon and honey Intake form AppTests.modulemap"; sourceTree = "<group>"; };
+		E764D97204843C9A9EFBB2D2403F24D7 /* Pods-Lemon and honey Intake form AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Lemon and honey Intake form AppTests.modulemap"; sourceTree = "<group>"; };
 		E84D4170A0EB60DDA80CB3E865F424E7 /* arrow_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_down@2x.png"; path = "Assets/arrow_down@2x.png"; sourceTree = "<group>"; };
 		E884953091A48953BD1CB4EE86B13A32 /* AWSXMLDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSXMLDictionary.h; path = AWSCore/XMLDictionary/AWSXMLDictionary.h; sourceTree = "<group>"; };
 		E8C7B9293B605BB97E39F6044F0D73DC /* _DDParserTerm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _DDParserTerm.h; path = DDMathParser/_DDParserTerm.h; sourceTree = "<group>"; };
@@ -1517,7 +1517,7 @@
 		ED391B0CF07FE1C01AB403C3C4EC7516 /* NSDictionary-HYPNestedAttributes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-HYPNestedAttributes-prefix.pch"; sourceTree = "<group>"; };
 		ED452EEEF612A7D227EED7B5E2285723 /* NSPredicate+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSPredicate+XLFormAdditions.h"; sourceTree = "<group>"; };
 		ED87446DFDE6EAF91FE1236A17CFC1BB /* XLFormRowDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRowDescriptor.h; path = XLForm/XL/Descriptors/XLFormRowDescriptor.h; sourceTree = "<group>"; };
-		EDED33D84167F9E4E7F9F4114CB16F25 /* HYPNorwegianSSN.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HYPNorwegianSSN.modulemap; sourceTree = "<group>"; };
+		EDED33D84167F9E4E7F9F4114CB16F25 /* HYPNorwegianSSN.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HYPNorwegianSSN.modulemap; sourceTree = "<group>"; };
 		EDFB671727E14BD362C1A20D28930C57 /* FORMTextFieldTypeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FORMTextFieldTypeManager.m; path = Source/Cells/Views/FORMTextFieldTypeManager.m; sourceTree = "<group>"; };
 		EE1F9A1E2C5171951B7D8923E82C2093 /* FORMFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMFormatter.h; path = Source/Formatters/FORMFormatter.h; sourceTree = "<group>"; };
 		EE2437FA22DC73548E6EC9D316D5F216 /* FORMSelectFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMSelectFieldCell.h; path = Source/Cells/Popover/FORMSelectFieldCell.h; sourceTree = "<group>"; };
@@ -1525,14 +1525,14 @@
 		EED42395BC60018BDCA81EB946EDDF24 /* AWSCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCore.h; path = AWSCore/AWSCore.h; sourceTree = "<group>"; };
 		EF15600737138EDD1110C73D754ABCD2 /* Pods-Lemon and honey Intake form AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lemon and honey Intake form AppUITests-umbrella.h"; sourceTree = "<group>"; };
 		EF879C44D17772CD2A96ACEFEC63E65F /* NSArray+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSArray+XLFormAdditions.h"; sourceTree = "<group>"; };
-		EF954E12A67B5E5458AE3659444A19B9 /* HYPImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYPImagePicker.framework; path = HYPImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF954E12A67B5E5458AE3659444A19B9 /* HYPImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYPImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC7F446D7C73B8F89557583E59FA1EC /* clock@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clock@2x.png"; path = "Assets/clock@2x.png"; sourceTree = "<group>"; };
 		F02C6059F3C8320C68AE42ADEA9DA1EF /* AWSExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSExecutor.m; path = AWSCore/Bolts/AWSExecutor.m; sourceTree = "<group>"; };
 		F0A1316205A525D2424B8280CCC98440 /* UIViewController_HYPKeyboardToolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewController_HYPKeyboardToolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AF5F6427DAFEE0142A906A86CD621C /* DDParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDParser.h; path = DDMathParser/DDParser.h; sourceTree = "<group>"; };
 		F0FD03FD950F3F3652FB1B6D321E2453 /* FORMField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FORMField.h; path = Source/Models/FORMField.h; sourceTree = "<group>"; };
 		F105647A6D349D11F67B23F754FDCEE2 /* AWSFMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSFMDatabase.h; path = AWSCore/FMDB/AWSFMDatabase.h; sourceTree = "<group>"; };
-		F13560C7006646C5F6F6253B9823DE43 /* NSJSONSerialization_ANDYJSONFile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSJSONSerialization_ANDYJSONFile.framework; path = "NSJSONSerialization-ANDYJSONFile.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13560C7006646C5F6F6253B9823DE43 /* NSJSONSerialization_ANDYJSONFile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSJSONSerialization_ANDYJSONFile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CEFA941E76900E03968D05113ABF4F /* Pods-Lemon and honey Intake form AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lemon and honey Intake form AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F275A0D349425F168322A501FE256395 /* XLFormDescriptorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDescriptorCell.h; path = XLForm/XL/Cell/XLFormDescriptorCell.h; sourceTree = "<group>"; };
 		F2918699B2474AD035FE7B4C08854BE2 /* XLFormDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormDescriptor.m; path = XLForm/XL/Descriptors/XLFormDescriptor.m; sourceTree = "<group>"; };
@@ -1962,7 +1962,6 @@
 				CBCA2CA02B0015ECFC8B9ABC5A0EAED2 /* NSString+ZENInflections.m */,
 				269403D26A0464422EEF333AAF492F04 /* Support Files */,
 			);
-			name = "NSString-ZENInflections";
 			path = "NSString-ZENInflections";
 			sourceTree = "<group>";
 		};
@@ -1987,7 +1986,6 @@
 				C4969B384D1C21C7D7BBCEEB17D512C8 /* UIViewController+HYPKeyboardToolbar.m */,
 				7ED144041F3B4901813835E6F39AA500 /* Support Files */,
 			);
-			name = "UIViewController-HYPKeyboardToolbar";
 			path = "UIViewController-HYPKeyboardToolbar";
 			sourceTree = "<group>";
 		};
@@ -2054,7 +2052,6 @@
 				A9A5F2543304E20ED4B128C626B43211 /* NSString+HYPWordExtractor.m */,
 				0B7E6C7958E9EF1B080878EA7BE192ED /* Support Files */,
 			);
-			name = "NSString-HYPWordExtractor";
 			path = "NSString-HYPWordExtractor";
 			sourceTree = "<group>";
 		};
@@ -2194,7 +2191,6 @@
 				C447A28220C78EBBC260F94391ABEFFC /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m */,
 				1B9A5900B14BE194F15ACF8423E65F91 /* Support Files */,
 			);
-			name = AWSCore;
 			path = AWSCore;
 			sourceTree = "<group>";
 		};
@@ -2251,7 +2247,6 @@
 				CF7D6D820FFCED54B6B1D3E6FE3815BD /* NSDictionary+ANDYSafeValue.m */,
 				22B04E3C10A8547BD9631C8DB6BE296B /* Support Files */,
 			);
-			name = "NSDictionary-ANDYSafeValue";
 			path = "NSDictionary-ANDYSafeValue";
 			sourceTree = "<group>";
 		};
@@ -2276,7 +2271,6 @@
 				4306A837B99467742F85B1676966091A /* ISO8601DateFormatter.m */,
 				E79D76FE910AD9F7678613EABE5B8ECD /* Support Files */,
 			);
-			name = HYP8601;
 			path = HYP8601;
 			sourceTree = "<group>";
 		};
@@ -2287,7 +2281,6 @@
 				919BB570CC8327E771204F148236ED23 /* NSDictionary+HYPNestedAttributes.m */,
 				418E45B16C8FAF061B3CC607AF3A965A /* Support Files */,
 			);
-			name = "NSDictionary-HYPNestedAttributes";
 			path = "NSDictionary-HYPNestedAttributes";
 			sourceTree = "<group>";
 		};
@@ -2327,7 +2320,6 @@
 				EF15D0C7262746083E1386A6F0AF18B7 /* Resources */,
 				968BBEBE66638D00A395B320D2C7859F /* Support Files */,
 			);
-			name = DYRateView;
 			path = DYRateView;
 			sourceTree = "<group>";
 		};
@@ -2351,7 +2343,6 @@
 				29A3CADC83FB672A30E0710101C09096 /* NSString+HYPContainsString.m */,
 				EB58B39C4C221CCAC17E4323FE337ADD /* Support Files */,
 			);
-			name = "NSString-HYPContainsString";
 			path = "NSString-HYPContainsString";
 			sourceTree = "<group>";
 		};
@@ -2397,7 +2388,6 @@
 				32ED6C517A54B3B0E6124A0FCF2B5881 /* NSString+HYPRelationshipParser.m */,
 				E5A160D38AC91AFB4EC22FC5D74ED2A1 /* Support Files */,
 			);
-			name = "NSString-HYPRelationshipParser";
 			path = "NSString-HYPRelationshipParser";
 			sourceTree = "<group>";
 		};
@@ -2408,7 +2398,6 @@
 				F9DB8503A36350442AC93BCE3DA363C2 /* NSString+HYPFormula.m */,
 				F85593C55F4EF54A6EF6840CF83DE791 /* Support Files */,
 			);
-			name = "NSString-HYPFormula";
 			path = "NSString-HYPFormula";
 			sourceTree = "<group>";
 		};
@@ -2433,7 +2422,6 @@
 				06AD0B22E8F12DD714BF63E30F5D6F60 /* HYPNorwegianAccountNumber.m */,
 				70BD8E2DB9780543A0952243DF881203 /* Support Files */,
 			);
-			name = HYPNorwegianAccountNumber;
 			path = HYPNorwegianAccountNumber;
 			sourceTree = "<group>";
 		};
@@ -2457,7 +2445,6 @@
 				B5A4007C3F99C87B2AB292C3708F3362 /* UIColor+Hex.swift */,
 				93CAA0E4763272D8DC5D7B7622BB1359 /* Support Files */,
 			);
-			name = Hex;
 			path = Hex;
 			sourceTree = "<group>";
 		};
@@ -2468,7 +2455,6 @@
 				1AD04F59598FD06742566E877D8D5CF6 /* HYPNorwegianSSN.m */,
 				F518C0C5DB1AFD94B321D4446D17B122 /* Support Files */,
 			);
-			name = HYPNorwegianSSN;
 			path = HYPNorwegianSSN;
 			sourceTree = "<group>";
 		};
@@ -2517,7 +2503,6 @@
 				F9B100295D989D0B5F2EDFA2A6CBD95F /* NSJSONSerialization+ANDYJSONFile.m */,
 				508DE8E117A739C28C47C91E56C3D8D2 /* Support Files */,
 			);
-			name = "NSJSONSerialization-ANDYJSONFile";
 			path = "NSJSONSerialization-ANDYJSONFile";
 			sourceTree = "<group>";
 		};
@@ -2654,7 +2639,6 @@
 				87B458EF45E2F837CFC258BB919194DD /* Resources */,
 				40764DD73CEAADBEF68FE277DE819B57 /* Support Files */,
 			);
-			name = XLForm;
 			path = XLForm;
 			sourceTree = "<group>";
 		};
@@ -2696,7 +2680,6 @@
 				443D7B2DB172210CE9208D6A99943B14 /* HYPImagePicker.m */,
 				165E709530B6E73A41C1B20C6E59049F /* Support Files */,
 			);
-			name = HYPImagePicker;
 			path = HYPImagePicker;
 			sourceTree = "<group>";
 		};
@@ -2722,7 +2705,6 @@
 				137053F33A629E3380D1A4F65037A21C /* NSDictionary+HYPImmutable.m */,
 				BA9BE41BF5A6F7B3A7A792C941FB34D4 /* Support Files */,
 			);
-			name = "NSDictionary-HYPImmutable";
 			path = "NSDictionary-HYPImmutable";
 			sourceTree = "<group>";
 		};
@@ -2733,7 +2715,6 @@
 				85F7B083E2ABE19967C07315B4004448 /* NSDate+HYPString.m */,
 				13977D8CF059314E018C346809BF65C6 /* Support Files */,
 			);
-			name = "NSDate-HYPString";
 			path = "NSDate-HYPString";
 			sourceTree = "<group>";
 		};
@@ -2851,7 +2832,6 @@
 				78224909527F623EF8AFBF9D6D886927 /* Resources */,
 				C91B90402B962088ACB71AEB84CC77AB /* Support Files */,
 			);
-			name = Form;
 			path = Form;
 			sourceTree = "<group>";
 		};
@@ -2924,7 +2904,6 @@
 				7F63260D702A98C9CF4557ECB99F362A /* NSString+HYPMathParsing.m */,
 				D7313C63E70287A82084101C5FE32FD2 /* Support Files */,
 			);
-			name = HYPMathParser;
 			path = HYPMathParser;
 			sourceTree = "<group>";
 		};
@@ -2976,7 +2955,6 @@
 				B34D96B0FDAC279D3D76F36EA5E22D7E /* Core */,
 				395535BEF95B04CC233BF4BBDE81A39C /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -3017,7 +2995,6 @@
 				2A3746D1B1538A2A7D59279422DC8A77 /* AWSS3TransferUtility.m */,
 				A1083808E61E4D073E71620D873692BF /* Support Files */,
 			);
-			name = AWSS3;
 			path = AWSS3;
 			sourceTree = "<group>";
 		};
@@ -3056,7 +3033,6 @@
 				8AD430B222DB09DA7C1FC0EBB308361C /* NSObject+HYPTesting.m */,
 				71E63AFC5051A88FEB484B521DA07875 /* Support Files */,
 			);
-			name = "NSObject-HYPTesting";
 			path = "NSObject-HYPTesting";
 			sourceTree = "<group>";
 		};
@@ -4055,6 +4031,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -5515,7 +5492,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -6275,7 +6252,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

@@ -717,24 +717,24 @@
 		8466130D1E52D2590080B308 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Gurie;
 				TargetAttributes = {
 					846613141E52D2590080B308 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = N3V9KBCCA7;
+						DevelopmentTeam = 4V3JVZT7SK;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					8466132D1E52D2590080B308 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = BZ2ZN628V5;
+						DevelopmentTeam = 4V3JVZT7SK;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 846613141E52D2590080B308;
 					};
 					846613381E52D2590080B308 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = BZ2ZN628V5;
+						DevelopmentTeam = 4V3JVZT7SK;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 846613141E52D2590080B308;
 					};
@@ -745,6 +745,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1120,20 +1121,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -1169,20 +1179,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -1214,10 +1233,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N3V9KBCCA7;
+				DEVELOPMENT_TEAM = 4V3JVZT7SK;
 				INFOPLIST_FILE = "Lemon and honey Intake form App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.webappclouds.sparemedeaseelectronicforms;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webappclouds.iostestapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
@@ -1230,10 +1249,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N3V9KBCCA7;
+				DEVELOPMENT_TEAM = 4V3JVZT7SK;
 				INFOPLIST_FILE = "Lemon and honey Intake form App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.webappclouds.sparemedeaseelectronicforms;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webappclouds.iostestapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
@@ -1245,7 +1264,7 @@
 			baseConfigurationReference = 593491B3211EC33773A4A2FE /* Pods-Lemon and honey Intake form AppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = BZ2ZN628V5;
+				DEVELOPMENT_TEAM = 4V3JVZT7SK;
 				INFOPLIST_FILE = "Lemon and honey Intake form AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.webappclouds.Lemon-and-honey-Intake-form-AppTests";
@@ -1259,7 +1278,7 @@
 			baseConfigurationReference = AA34DAAD3F47A43B08807888 /* Pods-Lemon and honey Intake form AppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = BZ2ZN628V5;
+				DEVELOPMENT_TEAM = 4V3JVZT7SK;
 				INFOPLIST_FILE = "Lemon and honey Intake form AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.webappclouds.Lemon-and-honey-Intake-form-AppTests";
@@ -1272,7 +1291,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23488286B0CE412EAC5857AB /* Pods-Lemon and honey Intake form AppUITests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = BZ2ZN628V5;
+				DEVELOPMENT_TEAM = 4V3JVZT7SK;
 				INFOPLIST_FILE = "Lemon and honey Intake form AppUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.webappclouds.Lemon-and-honey-Intake-form-AppUITests";
@@ -1285,7 +1304,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD57C8BF472196927BB83C91 /* Pods-Lemon and honey Intake form AppUITests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = BZ2ZN628V5;
+				DEVELOPMENT_TEAM = 4V3JVZT7SK;
 				INFOPLIST_FILE = "Lemon and honey Intake form AppUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.webappclouds.Lemon-and-honey-Intake-form-AppUITests";
