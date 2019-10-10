@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'android'
+        label 'ios'
     }
     stages {
         stage('clean') {
