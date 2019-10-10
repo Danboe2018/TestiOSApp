@@ -17,7 +17,7 @@ pipeline {
                 wrap([$class: 'AnsiColorBuildWrapper', 'colorMapName': 'XTerm']) {
                     echo 'Building..'
                     // sh 'fastlane beta'
-                    sh 'xcodebuild -scheme "Lemon and honey Intake form App" -configuration "Debug" build'
+                    sh 'xcodebuild -scheme "iOSTestApp" -configuration "Debug" build'
                 }
             }
         }
