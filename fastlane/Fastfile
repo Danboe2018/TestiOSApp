@@ -8,6 +8,6 @@ platform :ios do
     end
 
     lane :beta do
-        build_app(scheme: "MyApp")
+        build_app(scheme: "Lemon and honey Intake form App")
     end
 end
